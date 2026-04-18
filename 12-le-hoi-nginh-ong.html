@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lễ Hội Nghinh Ông – Lâm Đồng 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--green-dark:#1a3a2a;--green-mid:#2d6a4f;--green-light:#52b788;--green-pale:#d8f3dc;--gold:#c9a84c;--gold-light:#f5e9b0;--cream:#faf8f2;--white:#fff;--text-dark:#1a1a1a;--text-mid:#3d3d3d;--text-muted:#6b6b6b;--border:#e0ddd4}
+body{font-family:'Be Vietnam Pro',sans-serif;background:var(--cream);color:var(--text-dark)}
+.nav{background:var(--green-dark);padding:14px 32px;display:flex;align-items:center;justify-content:space-between}
+.nav-brand{color:var(--gold);font-family:'Playfair Display',serif;font-size:15px}
+.nav-back{color:rgba(255,255,255,.7);text-decoration:none;font-size:13px}.nav-back:hover{color:var(--gold)}
+.hero{background:linear-gradient(155deg,#431407 0%,#9a3412 100%);color:#fff;padding:80px 24px 64px;text-align:center;position:relative;overflow:hidden}
+.hero::after{content:'';position:absolute;bottom:-1px;left:0;width:100%;height:60px;background:var(--cream);clip-path:ellipse(55% 100% at 50% 100%)}
+.badge{display:inline-block;background:var(--gold);color:#431407;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:5px 14px;border-radius:20px;margin-bottom:20px}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(28px,5vw,52px);line-height:1.2;max-width:680px;margin:0 auto 16px}
+.hero-sub{font-size:15px;color:rgba(255,255,255,.8);max-width:580px;margin:0 auto 36px;line-height:1.7}
+.hero-meta{display:flex;flex-wrap:wrap;justify-content:center;gap:16px}
+.meta-pill{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:10px 18px;font-size:13px;display:flex;align-items:center;gap:8px}
+.container{max-width:860px;margin:0 auto;padding:56px 24px 80px}
+.section{margin-bottom:48px}
+.section-label{font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
+.section h2{font-family:'Playfair Display',serif;font-size:24px;color:var(--green-dark);margin-bottom:20px;padding-bottom:12px;border-bottom:2px solid var(--green-pale)}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:32px}
+.info-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:20px;border-left:4px solid #9a3412}
+.info-card .label{font-size:11px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--text-muted);margin-bottom:6px}
+.info-card .value{font-size:15px;font-weight:500;color:var(--text-dark);line-height:1.5}
+.highlight{background:#fff7ed;border-radius:12px;padding:24px 28px;border-left:4px solid #9a3412;margin-bottom:32px}
+.highlight p{font-size:14px;line-height:1.75;color:var(--text-mid)}
+.highlight strong{color:#431407;font-weight:600}
+.parties-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.party-card{background:var(--white);border:1px solid var(--border);border-radius:10px;padding:16px 18px}
+.party-type{font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+.party-name{font-size:14px;font-weight:500;color:var(--text-dark);line-height:1.5}
+.tag{display:inline-block;background:var(--gold-light);color:var(--green-dark);font-size:12px;font-weight:500;padding:3px 10px;border-radius:5px;margin:2px}
+.note-box{background:var(--gold-light);border:1px solid var(--gold);border-radius:10px;padding:16px 20px;margin-bottom:24px}
+.note-box p{font-size:13px;color:#5c4000;line-height:1.65}
+footer{background:var(--green-dark);color:rgba(255,255,255,.6);text-align:center;padding:24px;font-size:13px}
+footer strong{color:var(--gold)}
+
+/* Lucide Icons */
+[data-lucide]{display:inline-block;vertical-align:middle;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.meta-pill [data-lucide]{width:15px;height:15px}
+.icon-wrap [data-lucide]{width:22px;height:22px}
+.badge-final [data-lucide]{width:13px;height:13px}
+h1 [data-lucide]{width:.9em;height:.9em}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <span class="nav-brand">Lâm Đồng – Chào Mùa Du Lịch Hè 2026</span>
+  <a href="#" class="nav-back">← Tất cả sự kiện</a>
+</nav>
+<section class="hero">
+  <div class="badge">Sự kiện số 12 / 15</div>
+  <h1>Lễ Hội Nghinh Ông</h1>
+  <p class="hero-sub">Lễ hội dân gian linh thiêng của cư dân vùng biển – nghi thức đón rước thần Nam Hải, cầu mùa bội thu và bình an cho ngư dân</p>
+  <div class="hero-meta">
+    <div class="meta-pill"><i data-lucide="calendar"></i> Trung tuần tháng 7 Âm lịch / 2026</div>
+    <div class="meta-pill"><i data-lucide="map-pin"></i> Quan Đế Miếu & P. Phan Thiết</div>
+    <div class="meta-pill"><i data-lucide="lamp-ceiling"></i> Lễ hội dân gian</div>
+  </div>
+</section>
+<main class="container">
+  <div class="section">
+    <div class="section-label">Thông tin chung</div>
+    <div class="note-box">
+      <p><i data-lucide="triangle-alert"></i> <strong>Lưu ý:</strong> Thời gian dự kiến vào trung tuần tháng 7 Âm lịch năm 2026, có thể thay đổi tùy theo tình hình lựa chọn ngày phù hợp trong tháng.</p>
+    </div>
+    <div class="info-grid">
+      <div class="info-card"><div class="label">Thời gian</div><div class="value">Trung tuần tháng 7 Âm lịch 2026 (có thể thay đổi)</div></div>
+      <div class="info-card"><div class="label">Địa điểm tổ chức</div><div class="value">Quan Đế Miếu, phường Phan Thiết</div></div>
+      <div class="info-card"><div class="label">Địa điểm diễu hành</div><div class="value">Trên địa bàn phường Phan Thiết</div></div>
+      <div class="info-card"><div class="label">Cơ quan chủ trì</div><div class="value">UBND phường Phan Thiết</div></div>
+      <div class="info-card"><div class="label">Đơn vị thực hiện</div><div class="value">Ban Quản lý lễ hội</div></div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Giới thiệu lễ hội</div>
+    <h2>Nghi lễ linh thiêng của ngư dân</h2>
+    <div class="highlight">
+      <p>Lễ hội Nghinh Ông là <strong>nghi lễ dân gian truyền thống</strong> của cư dân vùng biển, thờ phụng thần Nam Hải (cá Ông/cá Voi) – vị thần bảo hộ cho ngư dân trên biển. Lễ hội là dịp ngư dân bày tỏ lòng biết ơn, cầu mong mưa thuận gió hòa, biển lặng sóng êm và chuyến ra khơi bình an, bội thu.</p>
+    </div>
+    <div class="highlight">
+      <p>Phần hội bao gồm <strong>nghi thức rước kiệu, diễu hành</strong> trang trọng qua các tuyến đường chính của phường Phan Thiết, cùng các hoạt động văn nghệ dân gian, thu hút đông đảo người dân địa phương và du khách tham dự.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Đơn vị tổ chức</div>
+    <div class="parties-grid">
+      <div class="party-card"><div class="party-type">Chủ trì</div><div class="party-name">UBND phường Phan Thiết</div></div>
+      <div class="party-card"><div class="party-type">Thực hiện</div><div class="party-name">Ban Quản lý lễ hội</div></div>
+      <div class="party-card"><div class="party-type">Phối hợp</div><div class="party-name">Các hội quán trên địa bàn phường Phan Thiết</div></div>
+      <div class="party-card"><div class="party-type">Phối hợp</div><div class="party-name">Các đơn vị, doanh nghiệp có liên quan</div></div>
+    </div>
+  </div>
+  <div class="section">
+    <span class="tag">Nghinh Ông</span><span class="tag">Quan Đế Miếu</span><span class="tag">Lễ hội dân gian</span><span class="tag">Phan Thiết</span><span class="tag">Văn hóa biển</span><span class="tag">Thần Nam Hải</span>
+  </div>
+</main>
+<footer><strong>UBND tỉnh Lâm Đồng</strong> – Chuỗi hoạt động "Chào Mùa Du Lịch Hè 2026" &nbsp;|&nbsp; Sự kiện 12/15</footer>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script>lucide.createIcons();</script>
+</body>
+</html>

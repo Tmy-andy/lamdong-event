@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lễ Bế Mạc – Chào Mùa Du Lịch Hè 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--green-dark:#1a3a2a;--green-mid:#2d6a4f;--green-light:#52b788;--green-pale:#d8f3dc;--gold:#c9a84c;--gold-light:#f5e9b0;--cream:#faf8f2;--white:#fff;--text-dark:#1a1a1a;--text-mid:#3d3d3d;--text-muted:#6b6b6b;--border:#e0ddd4}
+body{font-family:'Be Vietnam Pro',sans-serif;background:var(--cream);color:var(--text-dark)}
+.nav{background:var(--green-dark);padding:14px 32px;display:flex;align-items:center;justify-content:space-between}
+.nav-brand{color:var(--gold);font-family:'Playfair Display',serif;font-size:15px}
+.nav-back{color:rgba(255,255,255,.7);text-decoration:none;font-size:13px}.nav-back:hover{color:var(--gold)}
+.hero{background:linear-gradient(155deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);color:#fff;padding:80px 24px 64px;text-align:center;position:relative;overflow:hidden}
+.hero::after{content:'';position:absolute;bottom:-1px;left:0;width:100%;height:60px;background:var(--cream);clip-path:ellipse(55% 100% at 50% 100%)}
+.badge{display:inline-block;background:var(--gold);color:#1a1a2e;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:5px 14px;border-radius:20px;margin-bottom:20px}
+.badge-final{display:inline-block;background:rgba(255,255,255,.15);border:1px solid var(--gold);color:var(--gold-light);font-size:12px;font-weight:500;padding:4px 14px;border-radius:16px;margin-bottom:16px;margin-left:8px}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(26px,5vw,48px);line-height:1.2;max-width:700px;margin:0 auto 16px}
+.hero-sub{font-size:15px;color:rgba(255,255,255,.8);max-width:580px;margin:0 auto 36px;line-height:1.7}
+.hero-meta{display:flex;flex-wrap:wrap;justify-content:center;gap:16px}
+.meta-pill{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:8px;padding:10px 18px;font-size:13px;display:flex;align-items:center;gap:8px}
+.container{max-width:860px;margin:0 auto;padding:56px 24px 80px}
+.section{margin-bottom:48px}
+.section-label{font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
+.section h2{font-family:'Playfair Display',serif;font-size:24px;color:var(--green-dark);margin-bottom:20px;padding-bottom:12px;border-bottom:2px solid var(--green-pale)}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:32px}
+.info-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:20px;border-left:4px solid var(--gold)}
+.info-card .label{font-size:11px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--text-muted);margin-bottom:6px}
+.info-card .value{font-size:15px;font-weight:500;color:var(--text-dark);line-height:1.5}
+.program-block{margin-bottom:20px}
+.program-block h3{font-size:15px;font-weight:600;color:var(--green-mid);margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.program-block h3::before{content:'';width:8px;height:8px;background:var(--gold);border-radius:50%;flex-shrink:0}
+.program-list{list-style:none;padding-left:16px;border-left:2px solid var(--green-pale)}
+.program-list li{padding:6px 0 6px 16px;font-size:14px;line-height:1.65;color:var(--text-mid);position:relative}
+.program-list li::before{content:'';width:6px;height:6px;background:var(--green-light);border-radius:50%;position:absolute;left:-4px;top:12px}
+.highlight{background:var(--green-pale);border-radius:12px;padding:24px 28px;border-left:4px solid var(--green-light);margin-bottom:32px}
+.highlight p{font-size:14px;line-height:1.75;color:var(--text-mid)}
+.highlight strong{color:var(--green-dark);font-weight:600}
+.timeline{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:24px}
+.tl-item{background:var(--white);border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center}
+.tl-date{font-size:12px;color:var(--text-muted);margin-bottom:4px}
+.tl-title{font-size:13px;font-weight:600;color:var(--green-dark);line-height:1.4}
+.tl-item.active{border-color:var(--gold);background:var(--gold-light)}
+.parties-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.party-card{background:var(--white);border:1px solid var(--border);border-radius:10px;padding:16px 18px}
+.party-type{font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+.party-name{font-size:14px;font-weight:500;color:var(--text-dark);line-height:1.5}
+.tag{display:inline-block;background:var(--gold-light);color:var(--green-dark);font-size:12px;font-weight:500;padding:3px 10px;border-radius:5px;margin:2px}
+footer{background:var(--green-dark);color:rgba(255,255,255,.6);text-align:center;padding:24px;font-size:13px}
+footer strong{color:var(--gold)}
+
+/* Lucide Icons */
+[data-lucide]{display:inline-block;vertical-align:middle;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.meta-pill [data-lucide]{width:15px;height:15px}
+.icon-wrap [data-lucide]{width:22px;height:22px}
+.badge-final [data-lucide]{width:13px;height:13px}
+h1 [data-lucide]{width:.9em;height:.9em}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <span class="nav-brand">Lâm Đồng – Chào Mùa Du Lịch Hè 2026</span>
+  <a href="#" class="nav-back">← Tất cả sự kiện</a>
+</nav>
+<section class="hero">
+  <div>
+    <div class="badge" style="margin-bottom:10px">Sự kiện số 15 / 15</div>
+    <span class="badge-final"><i data-lucide="flag"></i> Sự kiện cuối chuỗi</span>
+  </div>
+  <h1>Lễ Bế Mạc Chuỗi Hoạt Động<br><em>"Chào Mùa Du Lịch Hè 2026"</em></h1>
+  <p class="hero-sub">Tổng kết và khép lại chuỗi sự kiện du lịch lớn nhất mùa hè năm 2026 của tỉnh Lâm Đồng với chương trình nghệ thuật đặc sắc</p>
+  <div class="hero-meta">
+    <div class="meta-pill"><i data-lucide="calendar"></i> Cuối tháng 8/2026</div>
+    <div class="meta-pill"><i data-lucide="map-pin"></i> Quảng trường trung tâm, P. Bắc Gia Nghĩa</div>
+    <div class="meta-pill"><i data-lucide="tv"></i> Truyền hình trực tiếp</div>
+  </div>
+</section>
+<main class="container">
+  <div class="section">
+    <div class="section-label">Thông tin chung</div>
+    <div class="info-grid">
+      <div class="info-card"><div class="label">Thời gian</div><div class="value">Dự kiến cuối tháng 8/2026</div></div>
+      <div class="info-card"><div class="label">Địa điểm</div><div class="value">Quảng trường trung tâm, phường Bắc Gia Nghĩa</div></div>
+      <div class="info-card"><div class="label">Đơn vị chủ trì</div><div class="value">Sở Văn hóa, Thể thao và Du lịch tỉnh Lâm Đồng</div></div>
+      <div class="info-card"><div class="label">Phát sóng</div><div class="value">Truyền hình trực tiếp trên sóng Phát thanh, Truyền hình Lâm Đồng</div></div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Nội dung chương trình</div>
+    <h2>Hai hạng mục chính</h2>
+    <div class="program-block">
+      <h3>Tổng kết & Bế mạc</h3>
+      <ul class="program-list">
+        <li>Tổng kết toàn bộ kết quả Chuỗi hoạt động "Chào Mùa Du Lịch Hè 2026"</li>
+        <li>Bế mạc chính thức Chuỗi hoạt động "Chào Mùa Du Lịch Hè 2026"</li>
+        <li>Nhìn lại những dấu ấn nổi bật của chuỗi 15 sự kiện trong suốt mùa hè</li>
+      </ul>
+    </div>
+    <div class="program-block">
+      <h3>Chương trình Nghệ thuật Bế mạc</h3>
+      <ul class="program-list">
+        <li>Chương trình nghệ thuật đặc sắc chào mừng bế mạc Chuỗi hoạt động</li>
+        <li>Truyền hình trực tiếp trên sóng Phát thanh, Truyền hình Lâm Đồng và các đài liên kết</li>
+      </ul>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Nhìn lại hành trình</div>
+    <div class="highlight">
+      <p>Lễ Bế mạc đánh dấu sự kết thúc thành công của Chuỗi hoạt động "Chào Mùa Du Lịch Hè 2026" – chuỗi sự kiện kéo dài <strong>từ cuối tháng 4 đến hết tháng 8/2026</strong>, gồm 15 sự kiện lớn trải dài trên toàn tỉnh Lâm Đồng với chủ đề <strong>"Đến Lâm Đồng – săn mây ngàn, lướt sóng bạc"</strong>.</p>
+    </div>
+    <div class="timeline">
+      <div class="tl-item"><div class="tl-date">Tháng 4</div><div class="tl-title">Khai mạc & Trưng bày</div></div>
+      <div class="tl-item"><div class="tl-date">Tháng 5</div><div class="tl-title">Xúc tiến & Hội thảo biển</div></div>
+      <div class="tl-item"><div class="tl-date">Tháng 6</div><div class="tl-title">Night Run & Văn hóa</div></div>
+      <div class="tl-item"><div class="tl-date">Tháng 7</div><div class="tl-title">Diễn đàn & Nghinh Ông</div></div>
+      <div class="tl-item active"><div class="tl-date">Tháng 8</div><div class="tl-title">Ẩm thực & Bế mạc</div></div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Đơn vị tổ chức</div>
+    <div class="parties-grid">
+      <div class="party-card"><div class="party-type">Chủ trì</div><div class="party-name">Sở Văn hóa, Thể thao và Du lịch tỉnh Lâm Đồng</div></div>
+      <div class="party-card"><div class="party-type">Phối hợp</div><div class="party-name">Trung tâm Xúc tiến Đầu tư, Thương mại và Du lịch tỉnh Lâm Đồng</div></div>
+      <div class="party-card"><div class="party-type">Phối hợp</div><div class="party-name">Hiệp hội Du lịch Lâm Đồng</div></div>
+      <div class="party-card"><div class="party-type">Phối hợp</div><div class="party-name">UBND phường Bắc Gia Nghĩa</div></div>
+    </div>
+  </div>
+  <div class="section">
+    <span class="tag">Bế mạc</span><span class="tag">Tổng kết</span><span class="tag">Bắc Gia Nghĩa</span><span class="tag">Nghệ thuật</span><span class="tag">Truyền hình trực tiếp</span><span class="tag">Hè 2026</span>
+  </div>
+</main>
+<footer><strong>UBND tỉnh Lâm Đồng</strong> – Chuỗi hoạt động "Chào Mùa Du Lịch Hè 2026" &nbsp;|&nbsp; Sự kiện 15/15 – Kết thúc chuỗi</footer>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script>lucide.createIcons();</script>
+</body>
+</html>

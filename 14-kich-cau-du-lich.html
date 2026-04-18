@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chương Trình Kích Cầu Du Lịch "Người Lâm Đồng – Đi Du Lịch Lâm Đồng" 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--green-dark:#1a3a2a;--green-mid:#2d6a4f;--green-light:#52b788;--green-pale:#d8f3dc;--gold:#c9a84c;--gold-light:#f5e9b0;--cream:#faf8f2;--white:#fff;--text-dark:#1a1a1a;--text-mid:#3d3d3d;--text-muted:#6b6b6b;--border:#e0ddd4}
+body{font-family:'Be Vietnam Pro',sans-serif;background:var(--cream);color:var(--text-dark)}
+.nav{background:var(--green-dark);padding:14px 32px;display:flex;align-items:center;justify-content:space-between}
+.nav-brand{color:var(--gold);font-family:'Playfair Display',serif;font-size:15px}
+.nav-back{color:rgba(255,255,255,.7);text-decoration:none;font-size:13px}.nav-back:hover{color:var(--gold)}
+.hero{background:linear-gradient(155deg,var(--green-dark) 0%,var(--green-mid) 100%);color:#fff;padding:80px 24px 64px;text-align:center;position:relative;overflow:hidden}
+.hero::after{content:'';position:absolute;bottom:-1px;left:0;width:100%;height:60px;background:var(--cream);clip-path:ellipse(55% 100% at 50% 100%)}
+.badge{display:inline-block;background:var(--gold);color:var(--green-dark);font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:5px 14px;border-radius:20px;margin-bottom:20px}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(22px,4vw,42px);line-height:1.25;max-width:800px;margin:0 auto 16px}
+.hero-slogan{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.35);border-radius:10px;display:inline-block;padding:10px 24px;font-size:17px;font-style:italic;font-family:'Playfair Display',serif;margin-bottom:20px}
+.hero-sub{font-size:15px;color:rgba(255,255,255,.8);max-width:600px;margin:0 auto 36px;line-height:1.7}
+.hero-meta{display:flex;flex-wrap:wrap;justify-content:center;gap:16px}
+.meta-pill{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:8px;padding:10px 18px;font-size:13px;display:flex;align-items:center;gap:8px}
+.container{max-width:860px;margin:0 auto;padding:56px 24px 80px}
+.section{margin-bottom:48px}
+.section-label{font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
+.section h2{font-family:'Playfair Display',serif;font-size:24px;color:var(--green-dark);margin-bottom:20px;padding-bottom:12px;border-bottom:2px solid var(--green-pale)}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:32px}
+.info-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:20px;border-left:4px solid var(--green-light)}
+.info-card .label{font-size:11px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--text-muted);margin-bottom:6px}
+.info-card .value{font-size:15px;font-weight:500;color:var(--text-dark);line-height:1.5}
+.content-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-bottom:28px}
+.content-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:20px}
+.content-card .num{width:36px;height:36px;background:var(--green-pale);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:var(--green-dark);margin-bottom:12px}
+.content-card h3{font-size:15px;font-weight:600;color:var(--green-dark);margin-bottom:8px}
+.content-card p{font-size:13px;line-height:1.7;color:var(--text-mid)}
+.highlight{background:var(--green-pale);border-radius:12px;padding:24px 28px;border-left:4px solid var(--green-light);margin-bottom:32px}
+.highlight p{font-size:14px;line-height:1.75;color:var(--text-mid)}
+.highlight strong{color:var(--green-dark);font-weight:600}
+.parties-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.party-card{background:var(--white);border:1px solid var(--border);border-radius:10px;padding:16px 18px}
+.party-type{font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+.party-name{font-size:14px;font-weight:500;color:var(--text-dark);line-height:1.5}
+.tag{display:inline-block;background:var(--gold-light);color:var(--green-dark);font-size:12px;font-weight:500;padding:3px 10px;border-radius:5px;margin:2px}
+footer{background:var(--green-dark);color:rgba(255,255,255,.6);text-align:center;padding:24px;font-size:13px}
+footer strong{color:var(--gold)}
+
+/* Lucide Icons */
+[data-lucide]{display:inline-block;vertical-align:middle;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.meta-pill [data-lucide]{width:15px;height:15px}
+.icon-wrap [data-lucide]{width:22px;height:22px}
+.badge-final [data-lucide]{width:13px;height:13px}
+h1 [data-lucide]{width:.9em;height:.9em}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <span class="nav-brand">Lâm Đồng – Chào Mùa Du Lịch Hè 2026</span>
+  <a href="#" class="nav-back">← Tất cả sự kiện</a>
+</nav>
+<section class="hero">
+  <div class="badge">Sự kiện số 14 / 15</div>
+  <h1>Chương Trình Kích Cầu Du Lịch</h1>
+  <div class="hero-slogan">"Người Lâm Đồng – Đi Du Lịch Lâm Đồng"</div>
+  <p class="hero-sub">Xây dựng, phát động và công bố các chương trình khuyến mãi, ưu đãi du lịch đặc biệt dành cho người dân Lâm Đồng</p>
+  <div class="hero-meta">
+    <div class="meta-pill"><i data-lucide="calendar"></i> Tháng 4 – 8/2026</div>
+    <div class="meta-pill"><i data-lucide="map-pin"></i> Toàn tỉnh Lâm Đồng</div>
+    <div class="meta-pill"><i data-lucide="heart"></i> Du lịch nội tỉnh</div>
+  </div>
+</section>
+<main class="container">
+  <div class="section">
+    <div class="section-label">Thông tin chung</div>
+    <div class="info-grid">
+      <div class="info-card"><div class="label">Thời gian</div><div class="value">Tháng 4/2026 – Tháng 8/2026</div></div>
+      <div class="info-card"><div class="label">Địa điểm</div><div class="value">Các tổ chức, cá nhân, doanh nghiệp kinh doanh dịch vụ du lịch trên địa bàn tỉnh Lâm Đồng</div></div>
+      <div class="info-card"><div class="label">Đơn vị chủ trì</div><div class="value">Trung tâm Xúc tiến Đầu tư, Thương mại và Du lịch tỉnh Lâm Đồng</div></div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Nội dung chương trình</div>
+    <h2>Các hoạt động kích cầu</h2>
+    <div class="content-grid">
+      <div class="content-card">
+        <div class="num">1</div>
+        <h3>Chương trình ưu đãi nội tỉnh</h3>
+        <p>Xây dựng các sản phẩm du lịch mới với ưu đãi, giảm giá dành riêng cho du khách là người Lâm Đồng hoặc các địa phương lân cận.</p>
+      </div>
+      <div class="content-card">
+        <div class="num">2</div>
+        <h3>Tour du lịch đường bộ</h3>
+        <p>Xây dựng các tour du lịch đường bộ "biến hành trình thành trải nghiệm" đến các trung tâm du lịch trong tỉnh, kết nối 3 khu vực.</p>
+      </div>
+      <div class="content-card">
+        <div class="num">3</div>
+        <h3>Kết nối đa trải nghiệm</h3>
+        <p>Khuyến khích sản phẩm du lịch kết nối Hoa và Biển, Hoa và Di sản, Biển và Di sản – "Lâm Đồng: một chuyến đi – đa trải nghiệm".</p>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Bối cảnh đặc biệt</div>
+    <div class="highlight">
+      <p>Chương trình được triển khai trong bối cảnh <strong>Cảng hàng không quốc tế Liên Khương tạm đóng cửa</strong> để sửa chữa, nâng cấp đường băng. Đây là giai đoạn đặc biệt cần đẩy mạnh du lịch đường bộ và liên kết vùng để duy trì lượng khách đến Lâm Đồng.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Đơn vị tổ chức</div>
+    <div class="parties-grid">
+      <div class="party-card"><div class="party-type">Chủ trì</div><div class="party-name">Trung tâm Xúc tiến Đầu tư, Thương mại và Du lịch tỉnh Lâm Đồng</div></div>
+      <div class="party-card"><div class="party-type">Phối hợp</div><div class="party-name">Sở Văn hóa, Thể thao và Du lịch</div></div>
+      <div class="party-card"><div class="party-type">Phối hợp</div><div class="party-name">Hiệp hội Du lịch Lâm Đồng</div></div>
+      <div class="party-card"><div class="party-type">Phối hợp</div><div class="party-name">UBND các xã, phường, đặc khu</div></div>
+      <div class="party-card"><div class="party-type">Phối hợp</div><div class="party-name">Các tổ chức, cá nhân kinh doanh dịch vụ du lịch trên địa bàn tỉnh</div></div>
+    </div>
+  </div>
+  <div class="section">
+    <span class="tag">Kích cầu du lịch</span><span class="tag">Du lịch nội tỉnh</span><span class="tag">Tour đường bộ</span><span class="tag">Ưu đãi người địa phương</span><span class="tag">Khuyến mãi</span>
+  </div>
+</main>
+<footer><strong>UBND tỉnh Lâm Đồng</strong> – Chuỗi hoạt động "Chào Mùa Du Lịch Hè 2026" &nbsp;|&nbsp; Sự kiện 14/15</footer>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script>lucide.createIcons();</script>
+</body>
+</html>

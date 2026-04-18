@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chuỗi Hoạt Động "Chào Mùa Du Lịch Hè 2026" – Lâm Đồng</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --green-dark:#1a3a2a;--green-mid:#2d6a4f;--green-light:#52b788;--green-pale:#d8f3dc;
+  --gold:#c9a84c;--gold-light:#f5e9b0;--cream:#faf8f2;--white:#fff;
+  --text-dark:#1a1a1a;--text-mid:#3d3d3d;--text-muted:#6b6b6b;--border:#e0ddd4;
+}
+body{font-family:'Be Vietnam Pro',sans-serif;background:var(--cream);color:var(--text-dark)}
+
+/* NAV */
+.nav{background:var(--green-dark);padding:14px 32px;display:flex;align-items:center;justify-content:space-between}
+.nav-brand{color:var(--gold);font-family:'Playfair Display',serif;font-size:15px;letter-spacing:.5px}
+.nav-sub{color:rgba(255,255,255,.5);font-size:12px;margin-top:2px}
+
+/* HERO */
+.hero{background:linear-gradient(160deg,var(--green-dark) 0%,var(--green-mid) 100%);color:var(--white);padding:72px 24px 80px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")}
+.hero::after{content:'';position:absolute;bottom:-1px;left:0;width:100%;height:64px;background:var(--cream);clip-path:ellipse(55% 100% at 50% 100%)}
+.hero-eyebrow{font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(28px,5vw,50px);line-height:1.2;margin-bottom:12px}
+.hero h1 em{color:var(--gold);font-style:italic}
+.hero-sub{font-size:15px;color:rgba(255,255,255,.7);max-width:540px;margin:0 auto 40px;line-height:1.7}
+.hero-stats{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;position:relative;z-index:1}
+.stat-pill{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:12px 22px;text-align:center}
+.stat-num{font-family:'Playfair Display',serif;font-size:28px;color:var(--gold);line-height:1}
+.stat-label{font-size:11px;color:rgba(255,255,255,.6);margin-top:4px;letter-spacing:.5px}
+
+/* MAIN */
+.container{max-width:1100px;margin:0 auto;padding:56px 24px 80px}
+.section-header{margin-bottom:32px}
+.section-header h2{font-family:'Playfair Display',serif;font-size:22px;color:var(--green-dark);margin-bottom:4px}
+.section-header p{font-size:13px;color:var(--text-muted)}
+
+/* EVENTS GRID */
+.events-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:20px}
+
+.event-card{background:var(--white);border:1px solid var(--border);border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:14px;text-decoration:none;color:inherit;transition:transform .18s,box-shadow .18s,border-color .18s;position:relative;overflow:hidden}
+.event-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--green-mid),var(--green-light));opacity:0;transition:opacity .18s}
+.event-card:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(45,106,79,.12);border-color:var(--green-light)}
+.event-card:hover::before{opacity:1}
+.event-card.is-featured{border-left:4px solid var(--gold)}
+.event-card.is-close{border-left:4px solid var(--green-light)}
+
+.card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.card-num{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--text-muted)}
+.card-icon{width:40px;height:40px;border-radius:10px;background:var(--green-pale);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--green-mid)}
+.card-icon [data-lucide]{width:18px;height:18px;stroke:var(--green-mid)}
+
+.card-title{font-family:'Playfair Display',serif;font-size:16px;line-height:1.45;color:var(--green-dark);font-weight:700}
+
+.card-pills{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
+.card-pill{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--text-muted);background:var(--cream);border:1px solid var(--border);border-radius:6px;padding:3px 9px}
+.card-pill [data-lucide]{width:12px;height:12px;flex-shrink:0;stroke:var(--green-mid)}
+
+.card-tag{font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--gold);background:var(--gold-light);border-radius:5px;padding:3px 8px;align-self:flex-start}
+
+.card-arrow{margin-top:auto;font-size:12px;color:var(--green-mid);display:flex;align-items:center;gap:4px;font-weight:500}
+.card-arrow [data-lucide]{width:13px;height:13px;transition:transform .18s}
+.event-card:hover .card-arrow [data-lucide]{transform:translateX(3px)}
+
+/* FOOTER */
+footer{background:var(--green-dark);color:rgba(255,255,255,.55);text-align:center;padding:28px 24px;font-size:13px;line-height:1.8}
+footer strong{color:var(--gold)}
+
+/* LUCIDE */
+[data-lucide]{display:inline-block;vertical-align:middle;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+@media(max-width:600px){
+  .nav{flex-direction:column;align-items:flex-start;gap:4px}
+  .events-grid{grid-template-columns:1fr}
+  .hero-stats{gap:10px}
+  .stat-pill{flex:1;min-width:110px}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div>
+    <div class="nav-brand">Lâm Đồng – Chào Mùa Du Lịch Hè 2026</div>
+    <div class="nav-sub">Chuỗi 15 sự kiện · Tháng 4 – 8/2026</div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-eyebrow">UBND tỉnh Lâm Đồng</div>
+  <h1>Chào Mùa Du Lịch<br><em>Hè 2026</em></h1>
+  <p class="hero-sub">Chuỗi hoạt động văn hóa, thể thao và du lịch chào mừng mùa hè tại tỉnh Lâm Đồng – từ lễ khai mạc hoành tráng đến lễ bế mạc đặc sắc.</p>
+  <div class="hero-stats">
+    <div class="stat-pill">
+      <div class="stat-num">15</div>
+      <div class="stat-label">Sự kiện</div>
+    </div>
+    <div class="stat-pill">
+      <div class="stat-num">5</div>
+      <div class="stat-label">Tháng</div>
+    </div>
+    <div class="stat-pill">
+      <div class="stat-num">4</div>
+      <div class="stat-label">Địa điểm chính</div>
+    </div>
+  </div>
+</section>
+
+<main class="container">
+  <div class="section-header">
+    <h2>Tất cả sự kiện</h2>
+    <p>Nhấn vào thẻ sự kiện để xem chi tiết chương trình</p>
+  </div>
+
+  <div class="events-grid">
+
+    <!-- 01 -->
+    <a href="01-le-khai-mac.html" class="event-card is-featured">
+      <div class="card-top">
+        <span class="card-num">Sự kiện 01 / 15</span>
+        <div class="card-icon"><i data-lucide="flag"></i></div>
+      </div>
+      <div class="card-title">Lễ Khai Mạc Chuỗi Hoạt Động "Chào Mùa Du Lịch Hè 2026"</div>
+      <div class="card-pills">
+        <span class="card-pill"><i data-lucide="calendar"></i> 27/04/2026</span>
+        <span class="card-pill"><i data-lucide="clock"></i> 19:30 – 22:00</span>
+        <span class="card-pill"><i data-lucide="map-pin"></i> Nhà hát VH–NT Lâm Đồng</span>
+        <span class="card-pill"><i data-lucide="tv"></i> Truyền hình trực tiếp</span>
+      </div>
+      <div class="card-arrow">Xem chi tiết <i data-lucide="arrow-right"></i></div>
+    </a>
+
+    <!-- 02 -->
+    <a href="02-trung-bay-ocop.html" class="event-card">
+      <div class="card-top">
+        <span class="card-num">Sự kiện 02 / 15</span>
+        <div class="card-icon"><i data-lucide="store"></i></div>
+      </div>
+      <div class="card-title">Không Gian Trưng Bày Sản Phẩm Du Lịch, OCOP & Bản Đồ Quy Hoạch Mũi Né</div>
+      <div class="card-pills">
+        <span class="card-pill"><i data-lucide="calendar"></i> 27/04 – 03/05/2026</span>
+        <span class="card-pill"><i data-lucide="map-pin"></i> Đ. Nguyễn Tất Thành, Phan Thiết</span>
+        <span class="card-pill"><i data-lucide="layout-grid"></i> ~20 gian hàng</span>
+      </div>
+      <div class="card-arrow">Xem chi tiết <i data-lucide="arrow-right"></i></div>
+    </a>
+
+    <!-- 03 -->
+    <a href="03-ngay-hoi-van-hoa.html" class="event-card">
+      <div class="card-top">
+        <span class="card-num">Sự kiện 03 / 15</span>
+        <div class="card-icon"><i data-lucide="drama"></i></div>
+      </div>
+      <div class="card-title">Ngày Hội Văn Hóa Hưởng Ứng Ngày Văn Hóa Các Dân Tộc Việt Nam</div>
+      <div class="card-pills">
+        <span class="card-pill"><i data-lucide="calendar"></i> 18/04/2026</span>
+        <span class="card-pill"><i data-lucide="map-pin"></i> Khu vực Tây Lâm Đồng</span>
+      </div>
+      <div class="card-arrow">Xem chi tiết <i data-lucide="arrow-right"></i></div>
+    </a>
+
+    <!-- 04 -->
+    <a href="04-khao-sat-xuc-tien.html" class="event-card">
+      <div class="card-top">
+        <span class="card-num">Sự kiện 04 / 15</span>
+        <div class="card-icon"><i data-lucide="globe"></i></div>
+      </div>
+      <div class="card-title">Khảo Sát & Xây Dựng Sản Phẩm Du Lịch, Chương Trình Xúc Tiến Quảng Bá Du Lịch Lâm Đồng</div>
+      <div class="card-pills">
+        <span class="card-pill"><i data-lucide="calendar"></i> Tháng 5/2026</span>
+        <span class="card-pill"><i data-lucide="map-pin"></i> Toàn tỉnh (3 khu vực)</span>
+        <span class="card-pill"><i data-lucide="handshake"></i> Kết nối Halal</span>
+      </div>
+      <div class="card-arrow">Xem chi tiết <i data-lucide="arrow-right"></i></div>
+    </a>
+
+    <!-- 05 -->
+    <a href="05-summer-fest.html" class="event-card is-featured">
+      <div class="card-top">
+        <span class="card-num">Sự kiện 05 / 15</span>
+        <div class="card-icon"><i data-lucide="party-popper"></i></div>
+      </div>
+      <div class="card-title">Lễ Hội Mùa Hè – Summer Fest 2026</div>
+      <div class="card-pills">
+        <span class="card-pill"><i data-lucide="calendar"></i> 30/04 – 30/08/2026</span>
+        <span class="card-pill"><i data-lucide="map-pin"></i> NovaWorld Phan Thiết</span>
+        <span class="card-pill"><i data-lucide="sun"></i> 123 ngày</span>
+      </div>
+      <div class="card-tag">Xuyên suốt mùa hè</div>
+      <div class="card-arrow">Xem chi tiết <i data-lucide="arrow-right"></i></div>
+    </a>
+
+    <!-- 06 -->
+    <a href="06-hoi-thao-kinh-te-bien.html" class="event-card">
+      <div class="card-top">
+        <span class="card-num">Sự kiện 06 / 15</span>
+        <div class="card-icon"><i data-lucide="waves"></i></div>
+      </div>
+      <div class="card-title">Hội Thảo Phát Triển Kinh Tế Biển Tỉnh Lâm Đồng</div>
+      <div class="card-pills">
+        <span class="card-pill"><i data-lucide="calendar"></i> Cuối tháng 5/2026</span>
+        <span class="card-pill"><i data-lucide="map-pin"></i> Đặc khu Phú Quý</span>
+      </div>
+      <div class="card-arrow">Xem chi tiết <i data-lucide="arrow-right"></i></div>
+    </a>
+
+    <!-- 07 -->
+    <a href="07-hoi-thao-cong-nghiep-van-hoa.html" class="event-card">
+      <div class="card-top">
+        <span class="card-num">Sự kiện 07 / 15</span>
+        <div class="card-icon"><i data-lucide="landmark"></i></div>
+      </div>
+      <div class="card-title">Hội Thảo Khoa Học Giải Pháp Phát Triển Công Nghiệp Văn Hóa Lâm Đồng Đến 2030, Tầm Nhìn 2045</div>
+      <div class="card-pills">
+        <span class="card-pill"><i data-lucide="calendar"></i> Tháng 6/2026</span>
+        <span class="card-pill"><i data-lucide="map-pin"></i> Phường Phan Thiết</span>
+      </div>
+      <div class="card-arrow">Xem chi tiết <i data-lucide="arrow-right"></i></div>
+    </a>
+
+    <!-- 08 -->
+    <a href="08-da-lat-music-night-run.html" class="event-card">
+      <div class="card-top">
+        <span class="card-num">Sự kiện 08 / 15</span>
+        <div class="card-icon"><i data-lucide="music"></i></div>
+      </div>
+      <div class="card-title">Giải Chạy Đà Lạt Music Night Run 2026 & Đêm Concert</div>
+      <div class="card-pills">
+        <span class="card-pill"><i data-lucide="calendar"></i> Tháng 6/2026</span>
+        <span class="card-pill"><i data-lucide="map-pin"></i> Quảng trường Lâm Viên, Đà Lạt</span>
+      </div>
+      <div class="card-arrow">Xem chi tiết <i data-lucide="arrow-right"></i></div>
+    </a>
+
+    <!-- 09 -->
+    <a href="09-dien-dan-phat-trien-du-lich.html" class="event-card">
+      <div class="card-top">
+        <span class="card-num">Sự kiện 09 / 15</span>
+        <div class="card-icon"><i data-lucide="users"></i></div>
+      </div>
+      <div class="card-title">Diễn Đàn Tham Vấn Giải Pháp Phát Triển Du Lịch Lâm Đồng 2026–2030, Tầm Nhìn 2040</div>
+      <div class="card-pills">
+        <span class="card-pill"><i data-lucide="calendar"></i> Tháng 7/2026</span>
+        <span class="card-pill"><i data-lucide="map-pin"></i> Phường Xuân Hương, Đà Lạt</span>
+      </div>
+      <div class="card-arrow">Xem chi tiết <i data-lucide="arrow-right"></i></div>
+    </a>
+
+    <!-- 10 -->
+    <a href="10-ngay-van-hoa-du-lich-hcm.html" class="event-card">
+      <div class="card-top">
+        <span class="card-num">Sự kiện 10 / 15</span>
+        <div class="card-icon"><i data-lucide="building"></i></div>
+      </div>
+      <div class="card-title">Ngày Văn Hóa – Du Lịch Lâm Đồng tại Thành Phố Hồ Chí Minh Năm 2026</div>
+      <div class="card-pills">
+        <span class="card-pill"><i data-lucide="calendar"></i> Tháng 8/2026</span>
+        <span class="card-pill"><i data-lucide="map-pin"></i> Phố đi bộ Nguyễn Huệ, TP.HCM</span>
+      </div>
+      <div class="card-arrow">Xem chi tiết <i data-lucide="arrow-right"></i></div>
+    </a>
+
+    <!-- 11 -->
+    <a href="11-le-hoi-cau-ngu.html" class="event-card">
+      <div class="card-top">
+        <span class="card-num">Sự kiện 11 / 15</span>
+        <div class="card-icon"><i data-lucide="anchor"></i></div>
+      </div>
+      <div class="card-title">Lễ Hội Cầu Ngư Chính Mùa tại Vạn Thủy Tú</div>
+      <div class="card-pills">
+        <span class="card-pill"><i data-lucide="calendar"></i> 01 – 03/08/2026</span>
+        <span class="card-pill"><i data-lucide="map-pin"></i> Vạn Thủy Tú, Phan Thiết</span>
+        <span class="card-pill"><i data-lucide="flag"></i> Di sản văn hóa quốc gia</span>
+      </div>
+      <div class="card-arrow">Xem chi tiết <i data-lucide="arrow-right"></i></div>
+    </a>
+
+    <!-- 12 -->
+    <a href="12-le-hoi-nginh-ong.html" class="event-card">
+      <div class="card-top">
+        <span class="card-num">Sự kiện 12 / 15</span>
+        <div class="card-icon"><i data-lucide="lamp-ceiling"></i></div>
+      </div>
+      <div class="card-title">Lễ Hội Nghinh Ông</div>
+      <div class="card-pills">
+        <span class="card-pill"><i data-lucide="calendar"></i> Trung tuần tháng 7 Âm lịch</span>
+        <span class="card-pill"><i data-lucide="map-pin"></i> Quan Đế Miếu, Phan Thiết</span>
+      </div>
+      <div class="card-arrow">Xem chi tiết <i data-lucide="arrow-right"></i></div>
+    </a>
+
+    <!-- 13 -->
+    <a href="13-ngay-hoi-am-thuc.html" class="event-card">
+      <div class="card-top">
+        <span class="card-num">Sự kiện 13 / 15</span>
+        <div class="card-icon"><i data-lucide="utensils-crossed"></i></div>
+      </div>
+      <div class="card-title">Ngày Hội Du Lịch, Mua Sắm & Giao Lưu Ẩm Thực Việt</div>
+      <div class="card-pills">
+        <span class="card-pill"><i data-lucide="calendar"></i> Tháng 8/2026</span>
+        <span class="card-pill"><i data-lucide="map-pin"></i> Quảng trường Lâm Viên, Đà Lạt</span>
+      </div>
+      <div class="card-arrow">Xem chi tiết <i data-lucide="arrow-right"></i></div>
+    </a>
+
+    <!-- 14 -->
+    <a href="14-kich-cau-du-lich.html" class="event-card">
+      <div class="card-top">
+        <span class="card-num">Sự kiện 14 / 15</span>
+        <div class="card-icon"><i data-lucide="heart"></i></div>
+      </div>
+      <div class="card-title">Chương Trình Kích Cầu Du Lịch "Người Lâm Đồng – Đi Du Lịch Lâm Đồng"</div>
+      <div class="card-pills">
+        <span class="card-pill"><i data-lucide="calendar"></i> Tháng 4 – 8/2026</span>
+        <span class="card-pill"><i data-lucide="map-pin"></i> Toàn tỉnh Lâm Đồng</span>
+      </div>
+      <div class="card-tag">Xuyên suốt mùa hè</div>
+      <div class="card-arrow">Xem chi tiết <i data-lucide="arrow-right"></i></div>
+    </a>
+
+    <!-- 15 -->
+    <a href="15-le-be-mac.html" class="event-card is-featured">
+      <div class="card-top">
+        <span class="card-num">Sự kiện 15 / 15</span>
+        <div class="card-icon"><i data-lucide="flag-triangle-right"></i></div>
+      </div>
+      <div class="card-title">Lễ Bế Mạc Chuỗi Hoạt Động "Chào Mùa Du Lịch Hè 2026"</div>
+      <div class="card-pills">
+        <span class="card-pill"><i data-lucide="calendar"></i> Cuối tháng 8/2026</span>
+        <span class="card-pill"><i data-lucide="map-pin"></i> Quảng trường trung tâm, Gia Nghĩa</span>
+        <span class="card-pill"><i data-lucide="tv"></i> Truyền hình trực tiếp</span>
+      </div>
+      <div class="card-arrow">Xem chi tiết <i data-lucide="arrow-right"></i></div>
+    </a>
+
+  </div>
+</main>
+
+<footer>
+  <strong>UBND tỉnh Lâm Đồng</strong> – Chuỗi hoạt động "Chào Mùa Du Lịch Hè 2026"<br>
+  Sở Văn hóa, Thể thao và Du lịch tỉnh Lâm Đồng · Tháng 4 – 8/2026
+</footer>
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script>lucide.createIcons();</script>
+</body>
+</html>
