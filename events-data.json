@@ -1,0 +1,655 @@
+{
+  "global": {
+    "quote": "Đến Lâm Đồng — săn mây ngàn, lướt sóng bạc.",
+    "quoteHighlight": "săn mây ngàn,",
+    "quoteAttr": "Chủ đề chính thức · Mùa Du Lịch Hè 2026 · Lâm Đồng",
+    "ctaTitle": "Hành trình của bạn bắt đầu từ đây.",
+    "ctaBody": "Đại biểu, khách mời và đại diện báo chí có thể đăng ký tham dự hoặc theo dõi trực tiếp các sự kiện trên sóng Phát thanh – Truyền hình Lâm Đồng."
+  },
+  "events": [
+    {
+      "id": "01",
+      "number": "01 / 15",
+      "type": "Khai mạc chính thức",
+      "titleLine1": "Chào Mùa Du Lịch",
+      "titleLine2": "Hè 2026",
+      "subtitle": "Đêm khai mạc trang trọng, công bố Quy hoạch chung xây dựng Khu du lịch quốc gia Mũi Né — mở đầu cho chuỗi mười lăm hoạt động tôn vinh đất và người Lâm Đồng.",
+      "heroMeta": [
+        { "k": "Thời điểm", "v": "27.04.2026" },
+        { "k": "Giờ diễn ra", "v": "19:30 — 22:00" },
+        { "k": "Địa điểm", "v": "Nhà hát Lâm Đồng" },
+        { "k": "Phát sóng", "v": "Truyền hình trực tiếp" }
+      ],
+      "overviewTitle": "Đêm <em>mở màn</em> cho một mùa hè rực rỡ.",
+      "overviewBody": [
+        "Tối 27 tháng 4, tại Nhà hát và Triển lãm Văn hóa – Nghệ thuật tỉnh Lâm Đồng, chương trình khai mạc chính thức được tổ chức với quy mô cấp tỉnh — truyền hình trực tiếp trên sóng phát thanh, truyền hình địa phương và các đài liên kết toàn quốc.",
+        "Đêm khai mạc đồng thời công bố Quyết định phê duyệt Quy hoạch chung xây dựng Khu du lịch Quốc gia Mũi Né đến năm 2040, tầm nhìn 2050 — cột mốc chiến lược mở ra giai đoạn phát triển mới cho du lịch Lâm Đồng."
+      ],
+      "facts": [
+        { "num": "15", "lbl": "Sự kiện", "desc": "Trải dài toàn mùa hè 2026" },
+        { "num": "25,8M", "lbl": "Lượt khách", "desc": "Mục tiêu đón tiếp năm 2026" },
+        { "num": "2040", "lbl": "Tầm nhìn", "desc": "Quy hoạch KDL Quốc gia Mũi Né" },
+        { "num": "150'", "lbl": "Thời lượng", "desc": "Nghệ thuật & nghi thức khai mạc" }
+      ],
+      "programTitle": "Nghi lễ <em>trang trọng</em> & nghệ thuật <em>thăng hoa</em>.",
+      "programDesc": "Chương trình được dàn dựng theo cấu trúc \"Lễ – Hội\" — kết hợp nghi thức công bố quy hoạch mang tầm chiến lược với đêm nghệ thuật tôn vinh bản sắc đất và người Lâm Đồng.",
+      "program": [
+        {
+          "phase": "Phần I",
+          "title": "Phần <em>Lễ</em>",
+          "dark": true,
+          "steps": [
+            { "title": "Văn nghệ chào mừng", "desc": "Tiết mục mở màn mang đậm màu sắc văn hóa bản địa, khởi động không khí đêm khai mạc." },
+            { "title": "Tuyên bố lý do, giới thiệu đại biểu", "desc": "Giới thiệu chương trình đêm khai mạc và các đại biểu tham dự." },
+            { "title": "Công bố Quy hoạch Mũi Né 2040", "desc": "Lãnh đạo UBND tỉnh chính thức công bố Quyết định phê duyệt Quy hoạch KDL Quốc gia Mũi Né đến năm 2040, tầm nhìn 2050." },
+            { "title": "Phóng sự & Trailer chuỗi sự kiện", "desc": "Trình chiếu phóng sự định hướng Mũi Né và Trailer toàn bộ 15 hoạt động hè 2026." },
+            { "title": "Trao Giấy chứng nhận đầu tư", "desc": "Vinh danh các dự án tiêu biểu, trao biểu trưng cho nhà tài trợ và đơn vị đồng hành." },
+            { "title": "Phát biểu Lãnh đạo Bộ VH–TT&DL", "desc": "Phát biểu chính thức của đại diện Bộ Văn hóa, Thể thao và Du lịch hoặc Cục Du lịch Quốc gia Việt Nam." }
+          ]
+        },
+        {
+          "phase": "Phần II",
+          "title": "Phần <em>Hội</em>",
+          "dark": false,
+          "steps": [
+            { "title": "Chương trình nghệ thuật chào mừng", "desc": "Dàn dựng công phu, quy tụ nghệ sĩ và vũ đoàn hàng đầu trong nước — một đêm trình diễn đặc sắc." },
+            { "title": "Âm hưởng biển – rừng – cao nguyên", "desc": "Hành trình âm nhạc kết hợp xuyên suốt, phản chiếu chiều sâu văn hóa đặc trưng của vùng đất Lâm Đồng." },
+            { "title": "Sân khấu thực cảnh hiện đại", "desc": "Hệ thống ánh sáng, đồ họa chuyển động (projection mapping) và hiệu ứng đặc biệt đẳng cấp quốc tế." },
+            { "title": "Màn kết — khơi dậy cảm hứng hè 2026", "desc": "Thông điệp \"Săn mây ngàn, lướt sóng bạc\" — mở ra hành trình mùa hè rực rỡ trên toàn tỉnh Lâm Đồng." }
+          ]
+        }
+      ],
+      "details": [
+        { "icon": "calendar", "t": "Ngày tổ chức", "v": "Thứ Hai, 27.04.2026", "n": "Đêm khai mạc chính thức chuỗi hoạt động du lịch hè Lâm Đồng 2026." },
+        { "icon": "clock", "t": "Thời gian", "v": "19:30 – 22:00", "n": "Bắt đầu đúng giờ. Khuyến nghị đại biểu có mặt từ 18:45." },
+        { "icon": "map-pin", "t": "Địa điểm", "v": "Nhà hát & Triển lãm VH–NT Lâm Đồng", "n": "Đường Nguyễn Tất Thành, phường Phan Thiết, TP. Đà Lạt." },
+        { "icon": "monitor", "t": "Phát sóng", "v": "Truyền hình trực tiếp", "n": "PT–TH Lâm Đồng và các đài liên kết trên toàn quốc." },
+        { "icon": "building", "t": "Cơ quan chỉ đạo", "v": "UBND tỉnh Lâm Đồng", "n": "Chỉ đạo toàn bộ chuỗi 15 hoạt động mùa hè 2026." },
+        { "icon": "building2", "t": "Đơn vị chủ trì", "v": "Sở VH, TT và Du lịch", "n": "Phối hợp cùng sở ngành, địa phương và đối tác đồng hành." }
+      ],
+      "partners": [
+        { "name": "Sở Văn hóa, Thể thao và Du lịch tỉnh Lâm Đồng", "role": "Chủ trì" },
+        { "name": "Báo và Phát thanh, Truyền hình Lâm Đồng", "role": "Truyền thông · Phát sóng" },
+        { "name": "Trung tâm Xúc tiến Đầu tư, Thương mại và Du lịch", "role": "Phối hợp" },
+        { "name": "Hiệp hội Du lịch Lâm Đồng", "role": "Phối hợp" },
+        { "name": "UBND các xã, phường và đặc khu", "role": "Địa phương" },
+        { "name": "Đơn vị tổ chức sự kiện và các tổ chức, cá nhân kinh doanh du lịch, dịch vụ", "role": "Đối tác đồng hành" }
+      ],
+      "tags": ["Khai mạc", "Nghệ thuật", "Mũi Né 2040", "Phan Thiết", "Truyền hình trực tiếp"]
+    },
+    {
+      "id": "02",
+      "number": "02 / 15",
+      "type": "Triển lãm & Trưng bày",
+      "titleLine1": "Không Gian Trưng Bày",
+      "titleLine2": "OCOP & Quy Hoạch Mũi Né",
+      "subtitle": "Giới thiệu sản phẩm du lịch đặc trưng, hàng OCOP và bản đồ Quy hoạch chung Khu du lịch quốc gia Mũi Né — cầu nối giữa tiềm năng và du khách.",
+      "heroMeta": [
+        { "k": "Thời gian", "v": "27/04 – 03/05" },
+        { "k": "Địa điểm", "v": "Đ. Nguyễn Tất Thành" },
+        { "k": "Quy mô", "v": "~20 gian hàng" },
+        { "k": "Năm", "v": "2026" }
+      ],
+      "overviewTitle": "Cửa sổ <em>nhìn ra</em> tiềm năng du lịch Lâm Đồng.",
+      "overviewBody": [
+        "Không gian trưng bày kết hợp ba hạng mục: sản phẩm du lịch đặc trưng, hàng OCOP của tỉnh và bản đồ Quy hoạch chung xây dựng Khu du lịch Quốc gia Mũi Né đến năm 2040 — mang đến bức tranh toàn cảnh về định hướng phát triển và bản sắc địa phương.",
+        "Tổ chức song song với Lễ Khai mạc và kéo dài đến hết ngày 03/05/2026, sự kiện là cơ hội để du khách, nhà đầu tư và cộng đồng trực tiếp trải nghiệm những gì Lâm Đồng đang nắm giữ và hướng tới."
+      ],
+      "facts": [
+        { "num": "20+", "lbl": "Gian hàng", "desc": "Trưng bày sản phẩm du lịch & OCOP" },
+        { "num": "7", "lbl": "Ngày", "desc": "Từ 27/04 đến 03/05/2026" },
+        { "num": "3", "lbl": "Phân khu", "desc": "Bản đồ quy hoạch Mũi Né 2040" },
+        { "num": "2040", "lbl": "Tầm nhìn", "desc": "Quy hoạch KDL Quốc gia Mũi Né" }
+      ],
+      "highlights": [
+        {
+          "title": "Mục tiêu triển lãm",
+          "body": "Sự kiện nhằm <strong>quảng bá hình ảnh và thương hiệu du lịch Lâm Đồng</strong>, giới thiệu tiềm năng Khu du lịch quốc gia Mũi Né, đồng thời kêu gọi các nguồn lực đầu tư trong và ngoài nước. Hoạt động diễn ra song song với Lễ Khai mạc và kéo dài đến hết ngày 03/05/2026."
+        }
+      ],
+      "contentCards": [
+        { "icon": "shopping-bag", "title": "Sản phẩm Du lịch & OCOP", "body": "Tổ chức không gian trưng bày, giới thiệu các sản phẩm du lịch đặc trưng và một số mặt hàng OCOP của tỉnh Lâm Đồng tại khoảng 20 gian hàng." },
+        { "icon": "map", "title": "Bản đồ Quy hoạch Mũi Né", "body": "Trưng bày bản đồ Quy hoạch chung và bản đồ 03 phân khu Quy hoạch chung xây dựng Khu du lịch quốc gia Mũi Né đến năm 2040." },
+        { "icon": "image", "title": "Hình ảnh Du lịch Lâm Đồng", "body": "Trưng bày các hình ảnh tiêu biểu về tiềm năng và thế mạnh du lịch của tỉnh Lâm Đồng đến du khách trong và ngoài nước." }
+      ],
+      "details": [
+        { "icon": "calendar", "t": "Thời gian", "v": "27/04 – 03/05/2026", "n": "Khai mạc cùng ngày với Lễ Khai mạc chuỗi sự kiện." },
+        { "icon": "map-pin", "t": "Địa điểm", "v": "Đường Nguyễn Tất Thành, phường Phan Thiết", "n": "Khu vực triển lãm ngoài trời và trong nhà." },
+        { "icon": "layout", "t": "Quy mô", "v": "~20 gian hàng", "n": "Gian hàng sản phẩm du lịch, OCOP và bản đồ quy hoạch." },
+        { "icon": "building2", "t": "Đơn vị chủ trì", "v": "Trung tâm Xúc tiến Đầu tư, TM & DL", "n": "Trung tâm Xúc tiến Đầu tư, Thương mại và Du lịch tỉnh Lâm Đồng." }
+      ],
+      "partners": [
+        { "name": "Trung tâm Xúc tiến Đầu tư, Thương mại và Du lịch tỉnh Lâm Đồng", "role": "Chủ trì" },
+        { "name": "Sở Văn hóa, Thể thao và Du lịch", "role": "Phối hợp" },
+        { "name": "Hiệp hội Du lịch Lâm Đồng", "role": "Phối hợp" },
+        { "name": "UBND các xã, phường, đặc khu", "role": "Phối hợp" },
+        { "name": "Các tổ chức, cá nhân kinh doanh du lịch, dịch vụ trên địa bàn tỉnh", "role": "Đối tác đồng hành" }
+      ],
+      "tags": ["Triển lãm", "OCOP", "Quy hoạch Mũi Né", "Xúc tiến Du lịch", "Phan Thiết"]
+    },
+    {
+      "id": "03",
+      "number": "03 / 15",
+      "type": "Văn hóa dân tộc",
+      "titleLine1": "Ngày Hội Văn Hóa",
+      "titleLine2": "Các Dân Tộc Việt Nam",
+      "subtitle": "Hưởng ứng Ngày Văn hóa các dân tộc Việt Nam và chào mừng kỷ niệm 51 năm Ngày Giải phóng miền Nam — tôn vinh bản sắc và giao lưu văn hóa.",
+      "heroMeta": [
+        { "k": "Ngày tổ chức", "v": "18.04.2026" },
+        { "k": "Khu vực", "v": "Tây Lâm Đồng" },
+        { "k": "Ý nghĩa", "v": "51 năm Thống nhất" }
+      ],
+      "overviewTitle": "Bảo tồn và phát huy <em>bản sắc</em> văn hóa dân tộc.",
+      "overviewBody": [
+        "Ngày hội hưởng ứng Ngày Văn hóa các dân tộc Việt Nam và chào mừng kỷ niệm 51 năm Ngày Giải phóng miền Nam, thống nhất đất nước (30/4/1975 – 30/4/2026). Sự kiện nhằm bảo tồn và phát huy bản sắc văn hóa các dân tộc; khôi phục, phát triển các làng nghề truyền thống gắn kết với phát triển du lịch bền vững.",
+        "Tỉnh Lâm Đồng có nhiều dân tộc sinh sống với bề dày văn hóa đặc sắc. Hoạt động này góp phần thúc đẩy tăng trưởng kinh tế – xã hội, tạo việc làm và tăng thu nhập cho người lao động trong ngành du lịch và các ngành dịch vụ liên quan."
+      ],
+      "highlights": [
+        {
+          "title": "Ý nghĩa lịch sử",
+          "body": "Ngày hội hưởng ứng <strong>Ngày Văn hóa các dân tộc Việt Nam</strong> và chào mừng kỷ niệm <strong>51 năm Ngày Giải phóng miền Nam, thống nhất đất nước (30/4/1975 – 30/4/2026)</strong>. Sự kiện nhằm bảo tồn và phát huy bản sắc văn hóa các dân tộc; khôi phục, phát triển các làng nghề truyền thống gắn kết với phát triển du lịch bền vững."
+        },
+        {
+          "title": "Tác động kinh tế – xã hội",
+          "body": "Tỉnh Lâm Đồng có nhiều dân tộc sinh sống với bề dày văn hóa đặc sắc. Hoạt động này góp phần <strong>thúc đẩy tăng trưởng kinh tế – xã hội, tạo việc làm và tăng thu nhập</strong> cho người lao động trong ngành du lịch và các ngành dịch vụ liên quan."
+        }
+      ],
+      "details": [
+        { "icon": "calendar", "t": "Ngày tổ chức", "v": "18/04/2026", "n": "Diễn ra trước lễ khai mạc chuỗi sự kiện chính." },
+        { "icon": "map-pin", "t": "Địa điểm", "v": "Khu vực Tây Lâm Đồng", "n": "Các xã, phường khu vực Tây của tỉnh Lâm Đồng." },
+        { "icon": "building2", "t": "Đơn vị chủ trì", "v": "Sở VH, TT và Du lịch Lâm Đồng", "n": "Phối hợp cùng UBND các xã, phường và cơ quan liên quan." }
+      ],
+      "partners": [
+        { "name": "Sở Văn hóa, Thể thao và Du lịch tỉnh Lâm Đồng", "role": "Chủ trì" },
+        { "name": "UBND các xã, phường và các cơ quan, đơn vị liên quan trên địa bàn tỉnh", "role": "Phối hợp" }
+      ],
+      "tags": ["Văn hóa dân tộc", "30/4/1975", "Tây Lâm Đồng", "Di sản văn hóa", "Làng nghề truyền thống"]
+    },
+    {
+      "id": "04",
+      "number": "04 / 15",
+      "type": "Xúc tiến & Hợp tác",
+      "titleLine1": "Khảo Sát & Xây Dựng",
+      "titleLine2": "Sản Phẩm Du Lịch Mới",
+      "subtitle": "Kết nối doanh nghiệp quốc tế, xây dựng tour tuyến mới và quảng bá tiềm năng du lịch Lâm Đồng ra thị trường quốc tế trong bối cảnh sân bay Liên Khương tạm dừng hoạt động.",
+      "heroMeta": [
+        { "k": "Thời gian", "v": "Tháng 5/2026" },
+        { "k": "Khu vực", "v": "Toàn tỉnh Lâm Đồng" },
+        { "k": "Trọng tâm", "v": "Thị trường Halal" }
+      ],
+      "overviewTitle": "Mở rộng <em>cơ hội</em>, kết nối <em>toàn cầu</em>.",
+      "overviewBody": [
+        "Thông qua chương trình này, Lâm Đồng giới thiệu tiềm năng và thế mạnh du lịch, mở rộng cơ hội hợp tác, liên kết phát triển du lịch — đặc biệt trong bối cảnh Cảng hàng không quốc tế Liên Khương tạm đóng cửa để sửa chữa, nâng cấp đường băng.",
+        "Ba hoạt động chính bao gồm: khảo sát sản phẩm du lịch đặc trưng, hội nghị xúc tiến quảng bá và kết nối doanh nghiệp quốc tế (dự kiến thị trường Halal) — mở ra chương mới cho du lịch Lâm Đồng trên bản đồ quốc tế."
+      ],
+      "highlights": [
+        {
+          "title": "Bối cảnh chiến lược",
+          "body": "Thông qua chương trình này, Lâm Đồng <strong>giới thiệu tiềm năng và thế mạnh du lịch</strong>, mở rộng cơ hội hợp tác, liên kết phát triển du lịch, đặc biệt trong bối cảnh <strong>Cảng hàng không quốc tế Liên Khương tạm đóng cửa</strong> để sửa chữa, nâng cấp."
+        }
+      ],
+      "contentCards": [
+        { "icon": "search", "title": "Khảo sát sản phẩm du lịch", "body": "Phối hợp tổ chức khảo sát, khai thác hiệu quả một số sản phẩm du lịch đặc trưng; xây dựng các tour, tuyến du lịch mới, hấp dẫn trên địa bàn cả 3 khu vực của tỉnh." },
+        { "icon": "handshake", "title": "Hội nghị xúc tiến quảng bá", "body": "Hội nghị quảng bá xúc tiến du lịch Lâm Đồng đến với các địa phương trong cả nước và các đối tác chiến lược." },
+        { "icon": "globe", "title": "Kết nối doanh nghiệp quốc tế", "body": "Gặp mặt, giao lưu kết nối với các đoàn doanh nghiệp du lịch quốc tế (dự kiến thị trường Halal) và báo chí trong và ngoài nước, ký kết hợp tác kinh doanh." }
+      ],
+      "details": [
+        { "icon": "calendar", "t": "Thời gian", "v": "Dự kiến tháng 5/2026", "n": "Lịch cụ thể sẽ được thông báo sau." },
+        { "icon": "map-pin", "t": "Địa điểm", "v": "Cả 3 khu vực tỉnh Lâm Đồng", "n": "Bắc – Trung – Nam của tỉnh Lâm Đồng." },
+        { "icon": "building2", "t": "Đơn vị chủ trì", "v": "Sở VH, TT và Du lịch Lâm Đồng", "n": "Phối hợp Trung tâm Xúc tiến và Hiệp hội Du lịch." }
+      ],
+      "partners": [
+        { "name": "Sở Văn hóa, Thể thao và Du lịch", "role": "Chủ trì" },
+        { "name": "Trung tâm Xúc tiến Đầu tư, Thương mại và Du lịch tỉnh Lâm Đồng", "role": "Phối hợp" },
+        { "name": "Hiệp hội Du lịch Lâm Đồng", "role": "Phối hợp" },
+        { "name": "Các địa phương và doanh nghiệp kinh doanh dịch vụ, du lịch trong và ngoài tỉnh", "role": "Phối hợp" }
+      ],
+      "tags": ["Xúc tiến du lịch", "Tour tuyến mới", "Halal", "Hợp tác quốc tế", "3 khu vực Lâm Đồng"]
+    },
+    {
+      "id": "05",
+      "number": "05 / 15",
+      "type": "Lễ hội mùa hè",
+      "titleLine1": "Lễ Hội Mùa Hè",
+      "titleLine2": "Summer Fest 2026",
+      "subtitle": "Lễ hội biển kéo dài xuyên mùa hè 2026 tại NovaWorld Phan Thiết — mang đến trải nghiệm giải trí đặc sắc và chào mừng kỷ niệm 51 năm Ngày Giải phóng miền Nam.",
+      "heroMeta": [
+        { "k": "Thời gian", "v": "30/04 – 30/08" },
+        { "k": "Địa điểm", "v": "NovaWorld Phan Thiết" },
+        { "k": "Tính chất", "v": "Xuyên suốt mùa hè" }
+      ],
+      "overviewTitle": "Lễ hội biển <em>xuyên suốt</em> mùa hè Lâm Đồng.",
+      "overviewBody": [
+        "Lễ hội được tổ chức trong suốt mùa hè 2026 nhằm kích cầu du lịch, mang đến những trải nghiệm giải trí hấp dẫn cho du khách tại khu du lịch phức hợp NovaWorld Phan Thiết — một trong những điểm đến biển lớn nhất miền Nam.",
+        "Sự kiện cũng chào mừng kỷ niệm 51 năm Ngày Giải phóng miền Nam (30/4/1975 – 30/4/2026), khẳng định vị thế của Lâm Đồng như một điểm đến đa trải nghiệm: biển xanh, núi đồi và văn hóa phong phú."
+      ],
+      "facts": [
+        { "num": "4+", "lbl": "Tháng", "desc": "Lễ hội kéo dài xuyên suốt mùa hè" },
+        { "num": "51", "lbl": "Năm", "desc": "Kỷ niệm Ngày Giải phóng miền Nam" },
+        { "num": "1", "lbl": "Điểm đến", "desc": "NovaWorld Phan Thiết" }
+      ],
+      "highlights": [
+        {
+          "title": "Lễ hội mùa hè",
+          "body": "Lễ hội được tổ chức trong suốt <strong>mùa hè 2026</strong> nhằm kích cầu du lịch, mang đến những trải nghiệm giải trí hấp dẫn cho du khách tại khu du lịch phức hợp NovaWorld Phan Thiết – một trong những điểm đến biển lớn nhất miền Nam. Sự kiện cũng chào mừng kỷ niệm <strong>51 năm Ngày Giải phóng miền Nam</strong>."
+        }
+      ],
+      "details": [
+        { "icon": "calendar", "t": "Thời gian", "v": "30/04 – 30/08/2026", "n": "Lễ hội xuyên suốt mùa hè 2026." },
+        { "icon": "map-pin", "t": "Địa điểm", "v": "NovaWorld Phan Thiết", "n": "Phường Tiến Thành, TP. Phan Thiết, tỉnh Lâm Đồng." },
+        { "icon": "building2", "t": "Đơn vị chủ trì", "v": "Nova Service", "n": "Công ty Cổ phần Tổng Công ty Nova Service." }
+      ],
+      "partners": [
+        { "name": "Công ty Cổ phần Tổng Công ty Nova Service", "role": "Chủ trì" },
+        { "name": "Sở Văn hóa, Thể thao và Du lịch", "role": "Phối hợp" },
+        { "name": "UBND phường Tiến Thành", "role": "Phối hợp" },
+        { "name": "Các cơ quan, đơn vị, doanh nghiệp có liên quan", "role": "Phối hợp" }
+      ],
+      "tags": ["Summer Fest", "NovaWorld Phan Thiết", "30/4", "Lễ hội biển", "Du lịch Hè"]
+    },
+    {
+      "id": "06",
+      "number": "06 / 15",
+      "type": "Hội thảo khoa học",
+      "titleLine1": "Hội Thảo Phát Triển",
+      "titleLine2": "Kinh Tế Biển Lâm Đồng",
+      "subtitle": "\"Phát huy lợi thế, phát triển đột phá kinh tế biển đưa Lâm Đồng vươn mình trong kỷ nguyên mới cùng đất nước\" — hội thảo chiến lược tại đặc khu Phú Quý.",
+      "heroMeta": [
+        { "k": "Thời gian", "v": "Cuối tháng 5/2026" },
+        { "k": "Địa điểm", "v": "Đặc khu Phú Quý" },
+        { "k": "Tính chất", "v": "Hội thảo chiến lược" }
+      ],
+      "overviewTitle": "Đột phá <em>kinh tế biển</em> — vươn mình trong kỷ nguyên mới.",
+      "overviewBody": [
+        "Hội thảo tập trung bàn luận các giải pháp chiến lược khai thác tiềm năng kinh tế biển của tỉnh Lâm Đồng, đặc biệt tại khu vực đặc khu Phú Quý — vùng biển có nhiều lợi thế phát triển về ngư nghiệp, du lịch và kinh tế hàng hải.",
+        "Đây là cơ hội để các chuyên gia, nhà quản lý và doanh nghiệp cùng xây dựng tầm nhìn dài hạn cho kinh tế biển Lâm Đồng, góp phần hiện thực hóa mục tiêu phát triển bền vững của tỉnh trong kỷ nguyên mới."
+      ],
+      "highlights": [
+        {
+          "title": "Chủ đề hội thảo",
+          "body": "<strong>\"Phát huy lợi thế, phát triển đột phá kinh tế biển đưa Lâm Đồng vươn mình trong kỷ nguyên mới cùng đất nước\"</strong><br><br>Hội thảo tập trung bàn luận các giải pháp chiến lược khai thác tiềm năng kinh tế biển của tỉnh Lâm Đồng, đặc biệt tại khu vực đặc khu Phú Quý – vùng biển có nhiều lợi thế phát triển."
+        }
+      ],
+      "details": [
+        { "icon": "calendar", "t": "Thời gian", "v": "Cuối tháng 5/2026", "n": "Lịch cụ thể sẽ được thông báo sau." },
+        { "icon": "map-pin", "t": "Địa điểm", "v": "Đặc khu Phú Quý", "n": "Đặc khu kinh tế – biển Phú Quý, tỉnh Lâm Đồng." },
+        { "icon": "building2", "t": "Đơn vị chủ trì", "v": "Sở Nông nghiệp và Môi trường", "n": "Sở Nông nghiệp và Môi trường tỉnh Lâm Đồng." }
+      ],
+      "partners": [
+        { "name": "Sở Nông nghiệp và Môi trường tỉnh Lâm Đồng", "role": "Chủ trì" },
+        { "name": "Sở Xây dựng, Sở Tài chính tỉnh Lâm Đồng", "role": "Phối hợp" },
+        { "name": "Các sở, ban, ngành, cơ quan, đơn vị, doanh nghiệp có liên quan", "role": "Phối hợp" }
+      ],
+      "tags": ["Kinh tế biển", "Đặc khu Phú Quý", "Hội thảo khoa học", "Phát triển bền vững"]
+    },
+    {
+      "id": "07",
+      "number": "07 / 15",
+      "type": "Hội thảo khoa học",
+      "titleLine1": "Hội Thảo Khoa Học",
+      "titleLine2": "Công Nghiệp Văn Hóa 2030–2045",
+      "subtitle": "Bàn luận các giải pháp chiến lược phát triển các ngành công nghiệp văn hóa trên địa bàn tỉnh Lâm Đồng đến năm 2030, tầm nhìn đến năm 2045.",
+      "heroMeta": [
+        { "k": "Thời gian", "v": "Tháng 6/2026" },
+        { "k": "Địa điểm", "v": "Phường Phan Thiết" },
+        { "k": "Tầm nhìn", "v": "Đến năm 2045" }
+      ],
+      "overviewTitle": "Xây dựng nền <em>công nghiệp văn hóa</em> bền vững.",
+      "overviewBody": [
+        "Hội thảo tập hợp các chuyên gia, nhà khoa học và nhà quản lý cùng bàn luận giải pháp phát triển các ngành công nghiệp văn hóa trên địa bàn tỉnh Lâm Đồng đến năm 2030, tầm nhìn đến năm 2045.",
+        "Đây là một trong những trụ cột quan trọng trong chiến lược phát triển bền vững của tỉnh — nơi văn hóa không chỉ được bảo tồn mà còn trở thành động lực kinh tế, thu hút đầu tư và tạo việc làm chất lượng cao."
+      ],
+      "highlights": [
+        {
+          "title": "Nội dung hội thảo",
+          "body": "Hội thảo tập hợp các chuyên gia, nhà khoa học và nhà quản lý cùng bàn luận <strong>giải pháp phát triển các ngành công nghiệp văn hóa</strong> trên địa bàn tỉnh Lâm Đồng đến năm 2030, tầm nhìn đến năm 2045. Đây là một trong những trụ cột quan trọng trong chiến lược phát triển bền vững của tỉnh."
+        }
+      ],
+      "details": [
+        { "icon": "calendar", "t": "Thời gian", "v": "Dự kiến tháng 6/2026", "n": "Lịch cụ thể sẽ được thông báo sau." },
+        { "icon": "map-pin", "t": "Địa điểm", "v": "Phường Phan Thiết", "n": "TP. Phan Thiết, tỉnh Lâm Đồng." },
+        { "icon": "building2", "t": "Đơn vị chủ trì", "v": "Sở VH, TT và Du lịch Lâm Đồng", "n": "Phối hợp các sở, ban, ngành và doanh nghiệp liên quan." }
+      ],
+      "partners": [
+        { "name": "Sở Văn hóa, Thể thao và Du lịch", "role": "Chủ trì" },
+        { "name": "Các sở, ban, ngành, cơ quan, đơn vị, doanh nghiệp liên quan", "role": "Phối hợp" }
+      ],
+      "tags": ["Công nghiệp văn hóa", "Hội thảo khoa học", "Chiến lược 2030", "Tầm nhìn 2045", "Phan Thiết"]
+    },
+    {
+      "id": "08",
+      "number": "08 / 15",
+      "type": "Thể thao & Âm nhạc",
+      "titleLine1": "Đà Lạt Music",
+      "titleLine2": "Night Run 2026 & Concert",
+      "subtitle": "Giải chạy đêm kết hợp âm nhạc tại Quảng trường Lâm Viên — trải nghiệm độc đáo giữa thiên nhiên cao nguyên Đà Lạt mộng mơ.",
+      "heroMeta": [
+        { "k": "Thời gian", "v": "Tháng 6/2026" },
+        { "k": "Địa điểm", "v": "Quảng trường Lâm Viên" },
+        { "k": "Thành phố", "v": "Đà Lạt" }
+      ],
+      "overviewTitle": "Chạy giữa màn đêm — lắng nghe <em>âm nhạc cao nguyên</em>.",
+      "overviewBody": [
+        "Giải chạy Đà Lạt Music Night Run 2026 là sự kiện thể thao – văn hóa độc đáo kết hợp giữa giải chạy đêm và đêm Concert âm nhạc. Tổ chức tại Quảng trường Lâm Viên — trái tim của thành phố Đà Lạt — bên bờ hồ Xuân Hương thơ mộng.",
+        "Sự kiện thu hút vận động viên và du khách yêu thể thao trong và ngoài nước, mang lại trải nghiệm khó quên: vừa chinh phục đường chạy đêm lãng mạn, vừa đắm chìm trong không gian âm nhạc sôi động giữa khung cảnh Đà Lạt lung linh."
+      ],
+      "facts": [
+        { "num": "1", "lbl": "Đêm Concert", "desc": "Âm nhạc sau giải chạy" },
+        { "num": "2", "lbl": "Hạng mục", "desc": "Night Run & Concert" }
+      ],
+      "highlights": [
+        {
+          "title": "Sự kiện đặc biệt",
+          "body": "Giải chạy <strong>Đà Lạt Music Night Run 2026</strong> là sự kiện thể thao – văn hóa độc đáo kết hợp giữa giải chạy đêm và đêm Concert âm nhạc. Tổ chức tại Quảng trường Lâm Viên – trái tim của thành phố Đà Lạt – bên bờ hồ Xuân Hương thơ mộng. Sự kiện thu hút vận động viên và du khách yêu thể thao trong và ngoài nước."
+        }
+      ],
+      "details": [
+        { "icon": "calendar", "t": "Thời gian", "v": "Dự kiến tháng 6/2026", "n": "Lịch cụ thể sẽ được thông báo sau." },
+        { "icon": "map-pin", "t": "Địa điểm", "v": "Quảng trường Lâm Viên", "n": "Phường Xuân Hương, TP. Đà Lạt, tỉnh Lâm Đồng." },
+        { "icon": "building2", "t": "Đơn vị thực hiện", "v": "Nexus Communications", "n": "Công ty Cổ phần Truyền thông Nexus." }
+      ],
+      "partners": [
+        { "name": "Công ty Cổ phần Truyền thông Nexus", "role": "Thực hiện" },
+        { "name": "Sở Văn hóa, Thể thao và Du lịch", "role": "Phối hợp" },
+        { "name": "Các sở, ban, ngành và doanh nghiệp liên quan", "role": "Phối hợp" }
+      ],
+      "tags": ["Night Run", "Đà Lạt", "Concert", "Thể thao", "Lâm Viên", "Xuân Hương"]
+    },
+    {
+      "id": "09",
+      "number": "09 / 15",
+      "type": "Diễn đàn chiến lược",
+      "titleLine1": "Diễn Đàn Phát Triển",
+      "titleLine2": "Du Lịch 2026–2030",
+      "subtitle": "Tập hợp chuyên gia, doanh nghiệp và nhà quản lý cùng xây dựng chiến lược phát triển du lịch bền vững tỉnh Lâm Đồng giai đoạn 2026–2030, tầm nhìn đến năm 2040.",
+      "heroMeta": [
+        { "k": "Thời gian", "v": "Tháng 7/2026" },
+        { "k": "Địa điểm", "v": "Đà Lạt" },
+        { "k": "Tầm nhìn", "v": "Đến năm 2040" }
+      ],
+      "overviewTitle": "Định hình <em>tương lai</em> du lịch Lâm Đồng đến năm 2040.",
+      "overviewBody": [
+        "Diễn đàn là cơ hội để lắng nghe, tham vấn ý kiến của các chuyên gia trong và ngoài nước, doanh nghiệp, hiệp hội và cơ quan báo chí về các giải pháp phát triển du lịch tỉnh Lâm Đồng giai đoạn 2026–2030, tầm nhìn đến năm 2040.",
+        "Kết quả diễn đàn sẽ là cơ sở quan trọng xây dựng quy hoạch và chính sách du lịch của tỉnh, hướng đến mục tiêu phát triển du lịch bền vững, có chiều sâu và giá trị gia tăng cao."
+      ],
+      "highlights": [
+        {
+          "title": "Mục tiêu diễn đàn",
+          "body": "Diễn đàn là cơ hội để <strong>lắng nghe, tham vấn</strong> ý kiến của các chuyên gia trong và ngoài nước, doanh nghiệp, hiệp hội và cơ quan báo chí về các giải pháp phát triển du lịch tỉnh Lâm Đồng giai đoạn <strong>2026–2030, tầm nhìn đến năm 2040</strong>. Kết quả diễn đàn sẽ là cơ sở quan trọng xây dựng quy hoạch và chính sách du lịch của tỉnh."
+        }
+      ],
+      "details": [
+        { "icon": "calendar", "t": "Thời gian", "v": "Dự kiến tháng 7/2026", "n": "Lịch cụ thể sẽ được thông báo sau." },
+        { "icon": "map-pin", "t": "Địa điểm", "v": "Phường Xuân Hương, Đà Lạt", "n": "TP. Đà Lạt, tỉnh Lâm Đồng." },
+        { "icon": "building", "t": "Cơ quan chỉ đạo", "v": "UBND tỉnh Lâm Đồng", "n": "Chỉ đạo tổ chức diễn đàn cấp tỉnh." },
+        { "icon": "building2", "t": "Đơn vị chủ trì", "v": "Sở VH, TT và Du lịch", "n": "Phối hợp sở ngành, doanh nghiệp và chuyên gia." }
+      ],
+      "partners": [
+        { "name": "UBND tỉnh Lâm Đồng", "role": "Chỉ đạo" },
+        { "name": "Sở Văn hóa, Thể thao và Du lịch", "role": "Chủ trì" },
+        { "name": "Các sở, ban, ngành; doanh nghiệp, hiệp hội, cơ quan báo chí", "role": "Phối hợp" },
+        { "name": "Các chuyên gia trong và ngoài nước", "role": "Tham gia" }
+      ],
+      "tags": ["Diễn đàn", "Chiến lược du lịch", "2026–2030", "Tầm nhìn 2040", "Đà Lạt"]
+    },
+    {
+      "id": "10",
+      "number": "10 / 15",
+      "type": "Xúc tiến ngoại tỉnh",
+      "titleLine1": "Ngày Văn Hóa – Du Lịch",
+      "titleLine2": "Lâm Đồng tại TP. HCM",
+      "subtitle": "Đưa hình ảnh \"Lâm Đồng – Hành trình của Biển, Hoa, Đại ngàn\" đến trung tâm kinh tế lớn nhất cả nước — tại tuyến phố đi bộ Nguyễn Huệ, TP. Hồ Chí Minh.",
+      "heroMeta": [
+        { "k": "Thời gian", "v": "Tháng 8/2026" },
+        { "k": "Địa điểm", "v": "Phố đi bộ Nguyễn Huệ" },
+        { "k": "Thành phố", "v": "TP. Hồ Chí Minh" }
+      ],
+      "overviewTitle": "Lâm Đồng tỏa sáng tại <em>trái tim</em> TP. Hồ Chí Minh.",
+      "overviewBody": [
+        "Sự kiện là cơ hội để Lâm Đồng giới thiệu văn hóa, điểm đến và sản phẩm du lịch đến cư dân và du khách tại TP. Hồ Chí Minh — thị trường du lịch nội địa lớn nhất cả nước.",
+        "Hoạt động diễn ra tại tuyến phố đi bộ Nguyễn Huệ — điểm tập trung đông đảo người dân và du khách nhất thành phố — mang không gian Lâm Đồng với hoa, biển và đại ngàn đến tận trung tâm Sài Gòn."
+      ],
+      "highlights": [
+        {
+          "title": "Ý nghĩa chiến lược",
+          "body": "Sự kiện là cơ hội để <strong>Lâm Đồng giới thiệu văn hóa, điểm đến và sản phẩm du lịch</strong> đến cư dân và du khách tại TP. Hồ Chí Minh – thị trường du lịch nội địa lớn nhất cả nước. Hoạt động diễn ra tại tuyến phố đi bộ Nguyễn Huệ – điểm tập trung đông đảo người dân và du khách nhất thành phố."
+        }
+      ],
+      "details": [
+        { "icon": "calendar", "t": "Thời gian", "v": "Dự kiến tháng 8/2026", "n": "Có kế hoạch chi tiết riêng." },
+        { "icon": "map-pin", "t": "Địa điểm", "v": "Phố đi bộ Nguyễn Huệ", "n": "Quận 1, TP. Hồ Chí Minh." },
+        { "icon": "building", "t": "Cơ quan chỉ đạo", "v": "UBND tỉnh Lâm Đồng", "n": "Chỉ đạo hoạt động xúc tiến ngoại tỉnh." }
+      ],
+      "partners": [
+        { "name": "UBND tỉnh Lâm Đồng", "role": "Chỉ đạo" },
+        { "name": "Sở Văn hóa, Thể thao và Du lịch Lâm Đồng", "role": "Chủ trì" },
+        { "name": "Trung tâm Xúc tiến Đầu tư, Thương mại và Du lịch tỉnh Lâm Đồng", "role": "Chủ trì" },
+        { "name": "Sở Du lịch TP. Hồ Chí Minh", "role": "Phối hợp" },
+        { "name": "Sở Văn hóa và Thể thao TP. Hồ Chí Minh", "role": "Phối hợp" }
+      ],
+      "tags": ["Ngày Văn hóa", "TP. Hồ Chí Minh", "Phố đi bộ Nguyễn Huệ", "Xúc tiến du lịch", "Liên kết vùng"]
+    },
+    {
+      "id": "11",
+      "number": "11 / 15",
+      "type": "Lễ hội dân gian",
+      "titleLine1": "Lễ Hội Cầu Ngư",
+      "titleLine2": "Chính Mùa tại Vạn Thủy Tú",
+      "subtitle": "Lễ hội dân gian truyền thống của ngư dân — cầu mong mưa thuận gió hòa, biển lặng sóng êm, tàu thuyền ra khơi bình an, mùa cá bội thu.",
+      "heroMeta": [
+        { "k": "Ngày tổ chức", "v": "01 – 03/08/2026" },
+        { "k": "Lịch âm", "v": "19–21/6 Bính Ngọ" },
+        { "k": "Địa điểm", "v": "Vạn Thủy Tú" }
+      ],
+      "overviewTitle": "Nghi lễ <em>ngàn năm</em> của cộng đồng ngư dân.",
+      "overviewBody": [
+        "Lễ hội Cầu Ngư là lễ hội dân gian đặc sắc nhất của cộng đồng ngư dân vùng biển, được tổ chức hàng năm tại Vạn Thủy Tú — một trong những ngôi đình làng thờ cá Ông nổi tiếng tại miền Nam.",
+        "Vạn Thủy Tú được công nhận là Di tích lịch sử – văn hóa cấp quốc gia, lưu giữ bộ xương cá Ông (cá voi) lớn nhất Đông Nam Á. Lễ hội là dịp để cộng đồng ngư dân tưởng nhớ công ơn cá Ông, đồng thời thu hút đông đảo du khách đến tham quan, trải nghiệm văn hóa địa phương."
+      ],
+      "highlights": [
+        {
+          "title": "Di tích lịch sử quốc gia",
+          "body": "Lễ hội Cầu Ngư là <strong>lễ hội dân gian đặc sắc nhất</strong> của cộng đồng ngư dân vùng biển, được tổ chức hàng năm tại Vạn Thủy Tú – một trong những ngôi đình làng thờ cá Ông nổi tiếng tại miền Nam. Lễ hội gồm nghi thức cúng bái trang nghiêm và phần hội với diễu hành, văn nghệ dân gian, trò chơi truyền thống."
+        },
+        {
+          "title": "Bộ xương cá Ông lớn nhất Đông Nam Á",
+          "body": "Vạn Thủy Tú được công nhận là <strong>Di tích lịch sử – văn hóa cấp quốc gia</strong>, lưu giữ bộ xương cá Ông (cá voi) lớn nhất Đông Nam Á. Lễ hội là dịp để cộng đồng ngư dân tưởng nhớ công ơn cá Ông, đồng thời thu hút đông đảo du khách đến tham quan, trải nghiệm văn hóa địa phương."
+        }
+      ],
+      "details": [
+        { "icon": "calendar", "t": "Ngày tổ chức", "v": "01/08 – 03/08/2026", "n": "Ngày 19–21/6 năm Bính Ngọ (Âm lịch)." },
+        { "icon": "map-pin", "t": "Địa điểm chính", "v": "Vạn Thủy Tú, phường Phan Thiết", "n": "Di tích lịch sử – văn hóa cấp quốc gia." },
+        { "icon": "building2", "t": "Đơn vị chủ trì", "v": "UBND phường Phan Thiết", "n": "Phối hợp Ban Quản lý Vạn Thủy Tú." }
+      ],
+      "partners": [
+        { "name": "UBND phường Phan Thiết", "role": "Chủ trì" },
+        { "name": "Ban Quản lý Vạn Thủy Tú", "role": "Thực hiện" }
+      ],
+      "tags": ["Lễ hội Cầu Ngư", "Vạn Thủy Tú", "Di sản văn hóa", "Phan Thiết", "Ngư dân", "Cá Ông"]
+    },
+    {
+      "id": "12",
+      "number": "12 / 15",
+      "type": "Lễ hội dân gian",
+      "titleLine1": "Lễ Hội",
+      "titleLine2": "Nghinh Ông",
+      "subtitle": "Lễ hội dân gian linh thiêng của cư dân vùng biển — nghi thức đón rước thần Nam Hải, cầu mùa bội thu và bình an cho ngư dân ra khơi.",
+      "heroMeta": [
+        { "k": "Thời gian", "v": "Tháng 7 Âm lịch" },
+        { "k": "Địa điểm", "v": "Quan Đế Miếu" },
+        { "k": "Phường", "v": "Phan Thiết" }
+      ],
+      "note": "Thời gian dự kiến vào trung tuần tháng 7 Âm lịch năm 2026, có thể thay đổi tùy theo tình hình lựa chọn ngày phù hợp trong tháng.",
+      "overviewTitle": "Nghi lễ <em>linh thiêng</em> của ngư dân vùng biển.",
+      "overviewBody": [
+        "Lễ hội Nghinh Ông là nghi lễ dân gian truyền thống của cư dân vùng biển, thờ phụng thần Nam Hải (cá Ông/cá Voi) — vị thần bảo hộ cho ngư dân trên biển. Lễ hội là dịp ngư dân bày tỏ lòng biết ơn, cầu mong mưa thuận gió hòa, biển lặng sóng êm và chuyến ra khơi bình an, bội thu.",
+        "Phần hội bao gồm nghi thức rước kiệu, diễu hành trang trọng qua các tuyến đường chính của phường Phan Thiết, cùng các hoạt động văn nghệ dân gian, thu hút đông đảo người dân địa phương và du khách tham dự."
+      ],
+      "highlights": [
+        {
+          "title": "Nghi lễ truyền thống",
+          "body": "Lễ hội Nghinh Ông là <strong>nghi lễ dân gian truyền thống</strong> của cư dân vùng biển, thờ phụng thần Nam Hải (cá Ông/cá Voi) – vị thần bảo hộ cho ngư dân trên biển. Lễ hội là dịp ngư dân bày tỏ lòng biết ơn, cầu mong mưa thuận gió hòa, biển lặng sóng êm và chuyến ra khơi bình an, bội thu."
+        },
+        {
+          "title": "Rước kiệu và diễu hành",
+          "body": "Phần hội bao gồm <strong>nghi thức rước kiệu, diễu hành</strong> trang trọng qua các tuyến đường chính của phường Phan Thiết, cùng các hoạt động văn nghệ dân gian, thu hút đông đảo người dân địa phương và du khách tham dự."
+        }
+      ],
+      "details": [
+        { "icon": "calendar", "t": "Thời gian", "v": "Trung tuần tháng 7 Âm lịch 2026", "n": "Có thể thay đổi tùy tình hình thực tế." },
+        { "icon": "map-pin", "t": "Địa điểm tổ chức", "v": "Quan Đế Miếu, phường Phan Thiết", "n": "Và diễu hành trên địa bàn phường." },
+        { "icon": "building2", "t": "Đơn vị chủ trì", "v": "UBND phường Phan Thiết", "n": "Phối hợp Ban Quản lý lễ hội." }
+      ],
+      "partners": [
+        { "name": "UBND phường Phan Thiết", "role": "Chủ trì" },
+        { "name": "Ban Quản lý lễ hội", "role": "Thực hiện" },
+        { "name": "Các hội quán trên địa bàn phường Phan Thiết", "role": "Phối hợp" },
+        { "name": "Các đơn vị, doanh nghiệp có liên quan", "role": "Phối hợp" }
+      ],
+      "tags": ["Nghinh Ông", "Quan Đế Miếu", "Lễ hội dân gian", "Phan Thiết", "Văn hóa biển", "Thần Nam Hải"]
+    },
+    {
+      "id": "13",
+      "number": "13 / 15",
+      "type": "Ẩm thực & Du lịch",
+      "titleLine1": "Ngày Hội Du Lịch",
+      "titleLine2": "Mua Sắm & Ẩm Thực Việt",
+      "subtitle": "Hội tụ tinh hoa ẩm thực ba miền, sản phẩm du lịch đặc sắc và trải nghiệm mua sắm độc đáo tại trái tim Đà Lạt — Quảng trường Lâm Viên.",
+      "heroMeta": [
+        { "k": "Thời gian", "v": "Tháng 8/2026" },
+        { "k": "Địa điểm", "v": "Quảng trường Lâm Viên" },
+        { "k": "Thành phố", "v": "Đà Lạt" }
+      ],
+      "overviewTitle": "Hội tụ <em>ẩm thực</em> ba miền — trải nghiệm <em>mua sắm</em> đặc sắc.",
+      "overviewBody": [
+        "Quảng trường Lâm Viên — trái tim của Đà Lạt, nằm bên bờ hồ Xuân Hương thơ mộng — là sân khấu lý tưởng để tổ chức ngày hội kết hợp du lịch, mua sắm và ẩm thực, thu hút đông đảo khách tham quan.",
+        "Sự kiện hội tụ tinh hoa ẩm thực ba miền Bắc – Trung – Nam cùng đặc sản Lâm Đồng, không gian mua sắm sản phẩm OCOP và hoạt động quảng bá điểm đến du lịch đặc trưng trên toàn tỉnh."
+      ],
+      "contentCards": [
+        { "icon": "map", "title": "Du lịch", "body": "Giới thiệu, quảng bá các sản phẩm du lịch đặc sắc của Lâm Đồng, tour tuyến mới và các điểm đến hấp dẫn trên toàn tỉnh." },
+        { "icon": "shopping-cart", "title": "Mua sắm", "body": "Không gian mua sắm sản phẩm OCOP, đặc sản địa phương, hàng thủ công mỹ nghệ và các sản phẩm tiêu biểu của tỉnh Lâm Đồng." },
+        { "icon": "utensils", "title": "Ẩm thực Việt", "body": "Giao lưu, giới thiệu các món ẩm thực truyền thống ba miền Bắc – Trung – Nam và đặc sản ẩm thực nổi tiếng của vùng đất Lâm Đồng." }
+      ],
+      "highlights": [
+        {
+          "title": "Địa điểm đặc biệt",
+          "body": "Quảng trường <strong>Lâm Viên – trái tim của Đà Lạt</strong>, nằm bên bờ hồ Xuân Hương thơ mộng, là điểm tụ hội của du khách và người dân địa phương. Đây là sân khấu lý tưởng để tổ chức ngày hội kết hợp du lịch, mua sắm và ẩm thực, thu hút đông đảo khách tham quan."
+        }
+      ],
+      "details": [
+        { "icon": "calendar", "t": "Thời gian", "v": "Tháng 8/2026", "n": "Lịch cụ thể sẽ được thông báo sau." },
+        { "icon": "map-pin", "t": "Địa điểm", "v": "Quảng trường Lâm Viên", "n": "Phường Xuân Hương, TP. Đà Lạt." },
+        { "icon": "building2", "t": "Đơn vị chủ trì", "v": "Trung tâm Xúc tiến Đầu tư, TM & DL", "n": "Trung tâm Xúc tiến Đầu tư, Thương mại và Du lịch tỉnh Lâm Đồng." }
+      ],
+      "partners": [
+        { "name": "Trung tâm Xúc tiến Đầu tư, Thương mại và Du lịch tỉnh Lâm Đồng", "role": "Chủ trì" },
+        { "name": "Sở Văn hóa, Thể thao và Du lịch", "role": "Phối hợp" },
+        { "name": "Hiệp hội Du lịch Lâm Đồng", "role": "Phối hợp" },
+        { "name": "UBND phường Xuân Hương – Đà Lạt", "role": "Phối hợp" },
+        { "name": "Các tổ chức, cá nhân kinh doanh dịch vụ du lịch trên địa bàn tỉnh", "role": "Phối hợp" }
+      ],
+      "tags": ["Ẩm thực Việt", "Mua sắm", "Quảng trường Lâm Viên", "Đà Lạt", "OCOP", "Đặc sản địa phương"]
+    },
+    {
+      "id": "14",
+      "number": "14 / 15",
+      "type": "Kích cầu du lịch",
+      "titleLine1": "Kích Cầu Du Lịch",
+      "titleLine2": "Người Lâm Đồng – Đi Lâm Đồng",
+      "subtitle": "Xây dựng, phát động và công bố các chương trình khuyến mãi, ưu đãi du lịch đặc biệt dành cho người dân Lâm Đồng — \"Một chuyến đi, đa trải nghiệm\".",
+      "heroMeta": [
+        { "k": "Thời gian", "v": "Tháng 4 – 8/2026" },
+        { "k": "Phạm vi", "v": "Toàn tỉnh" },
+        { "k": "Tính chất", "v": "Xuyên suốt" }
+      ],
+      "overviewTitle": "Kết nối <em>Hoa và Biển</em> — một chuyến đi, <em>đa trải nghiệm</em>.",
+      "overviewBody": [
+        "Chương trình được triển khai trong bối cảnh Cảng hàng không quốc tế Liên Khương tạm đóng cửa để sửa chữa, nâng cấp đường băng. Đây là giai đoạn đặc biệt cần đẩy mạnh du lịch đường bộ và liên kết vùng để duy trì lượng khách đến Lâm Đồng.",
+        "Ba trọng tâm chính: chương trình ưu đãi nội tỉnh cho người dân địa phương, tour du lịch đường bộ biến hành trình thành trải nghiệm, và kết nối đa trải nghiệm theo công thức \"Hoa và Biển – Hoa và Di sản – Biển và Di sản\"."
+      ],
+      "highlights": [
+        {
+          "title": "Bối cảnh đặc biệt",
+          "body": "Chương trình được triển khai trong bối cảnh <strong>Cảng hàng không quốc tế Liên Khương tạm đóng cửa</strong> để sửa chữa, nâng cấp đường băng. Đây là giai đoạn đặc biệt cần đẩy mạnh du lịch đường bộ và liên kết vùng để duy trì lượng khách đến Lâm Đồng."
+        }
+      ],
+      "contentCards": [
+        { "icon": "tag", "title": "Chương trình ưu đãi nội tỉnh", "body": "Xây dựng các sản phẩm du lịch mới với ưu đãi, giảm giá dành riêng cho du khách là người Lâm Đồng hoặc các địa phương lân cận." },
+        { "icon": "route", "title": "Tour du lịch đường bộ", "body": "Xây dựng các tour du lịch đường bộ \"biến hành trình thành trải nghiệm\" đến các trung tâm du lịch trong tỉnh, kết nối 3 khu vực." },
+        { "icon": "layers", "title": "Kết nối đa trải nghiệm", "body": "Khuyến khích sản phẩm du lịch kết nối Hoa và Biển, Hoa và Di sản, Biển và Di sản – \"Lâm Đồng: một chuyến đi – đa trải nghiệm\"." }
+      ],
+      "details": [
+        { "icon": "calendar", "t": "Thời gian", "v": "Tháng 4 – 8/2026", "n": "Chương trình xuyên suốt chuỗi sự kiện hè 2026." },
+        { "icon": "map-pin", "t": "Phạm vi", "v": "Toàn tỉnh Lâm Đồng", "n": "Các tổ chức, cá nhân, doanh nghiệp kinh doanh dịch vụ du lịch trên địa bàn tỉnh." },
+        { "icon": "building2", "t": "Đơn vị chủ trì", "v": "Trung tâm Xúc tiến Đầu tư, TM & DL", "n": "Trung tâm Xúc tiến Đầu tư, Thương mại và Du lịch tỉnh Lâm Đồng." }
+      ],
+      "partners": [
+        { "name": "Trung tâm Xúc tiến Đầu tư, Thương mại và Du lịch tỉnh Lâm Đồng", "role": "Chủ trì" },
+        { "name": "Sở Văn hóa, Thể thao và Du lịch", "role": "Phối hợp" },
+        { "name": "Hiệp hội Du lịch Lâm Đồng", "role": "Phối hợp" },
+        { "name": "UBND các xã, phường, đặc khu", "role": "Phối hợp" },
+        { "name": "Các tổ chức, cá nhân kinh doanh dịch vụ du lịch trên địa bàn tỉnh", "role": "Phối hợp" }
+      ],
+      "tags": ["Kích cầu du lịch", "Du lịch nội tỉnh", "Tour đường bộ", "Ưu đãi người địa phương", "Khuyến mãi"]
+    },
+    {
+      "id": "15",
+      "number": "15 / 15",
+      "type": "Bế mạc chính thức",
+      "titleLine1": "Lễ Bế Mạc",
+      "titleLine2": "Chuỗi Hoạt Động Hè 2026",
+      "subtitle": "Tổng kết và khép lại chuỗi sự kiện du lịch lớn nhất mùa hè năm 2026 của tỉnh Lâm Đồng — với chương trình nghệ thuật đặc sắc phát sóng trực tiếp.",
+      "heroMeta": [
+        { "k": "Thời gian", "v": "Cuối tháng 8/2026" },
+        { "k": "Địa điểm", "v": "Bắc Gia Nghĩa" },
+        { "k": "Phát sóng", "v": "Truyền hình trực tiếp" }
+      ],
+      "overviewTitle": "Khép lại một mùa hè <em>rực rỡ</em> — hẹn gặp lại.",
+      "overviewBody": [
+        "Lễ Bế mạc đánh dấu sự kết thúc thành công của Chuỗi hoạt động \"Chào Mùa Du Lịch Hè 2026\" — chuỗi sự kiện kéo dài từ cuối tháng 4 đến hết tháng 8/2026, gồm 15 sự kiện lớn trải dài trên toàn tỉnh Lâm Đồng.",
+        "Chủ đề xuyên suốt \"Đến Lâm Đồng – Săn mây ngàn, lướt sóng bạc\" đã trở thành hành trình không thể quên trong lòng hàng triệu du khách. Lễ Bế mạc là khoảnh khắc tôn vinh những đóng góp của tất cả đơn vị, doanh nghiệp và cộng đồng."
+      ],
+      "facts": [
+        { "num": "15", "lbl": "Sự kiện", "desc": "Đã được tổ chức thành công" },
+        { "num": "5", "lbl": "Tháng", "desc": "Từ tháng 4 đến tháng 8/2026" },
+        { "num": "3", "lbl": "Vùng", "desc": "Trải dài trên toàn tỉnh" }
+      ],
+      "programTitle": "Chương trình <em>bế mạc</em> chính thức.",
+      "programDesc": "Hai phần chính: tổng kết chuỗi hoạt động và chương trình nghệ thuật đặc sắc — được truyền hình trực tiếp trên sóng PT–TH Lâm Đồng và các đài liên kết.",
+      "program": [
+        {
+          "phase": "Phần I",
+          "title": "Tổng kết <em>& Bế mạc</em>",
+          "dark": true,
+          "steps": [
+            { "title": "Nhìn lại hành trình 5 tháng", "desc": "Tổng kết toàn bộ kết quả Chuỗi hoạt động \"Chào Mùa Du Lịch Hè 2026\" qua hình ảnh và số liệu ấn tượng." },
+            { "title": "Bế mạc chính thức", "desc": "Bế mạc chính thức Chuỗi hoạt động, đánh dấu kết thúc 15 sự kiện trải dài toàn tỉnh." },
+            { "title": "Vinh danh đóng góp", "desc": "Tôn vinh các đơn vị, doanh nghiệp và cá nhân có đóng góp xuất sắc cho chuỗi sự kiện." }
+          ]
+        },
+        {
+          "phase": "Phần II",
+          "title": "Chương trình <em>Nghệ thuật</em>",
+          "dark": false,
+          "steps": [
+            { "title": "Đêm nghệ thuật đặc sắc", "desc": "Chương trình nghệ thuật chào mừng bế mạc với các tiết mục đặc sắc tôn vinh vùng đất Lâm Đồng." },
+            { "title": "Truyền hình trực tiếp", "desc": "Phát sóng trực tiếp trên PT–TH Lâm Đồng và các đài liên kết trên toàn quốc." }
+          ]
+        }
+      ],
+      "details": [
+        { "icon": "calendar", "t": "Thời gian", "v": "Cuối tháng 8/2026", "n": "Ngày cụ thể sẽ được thông báo sau." },
+        { "icon": "map-pin", "t": "Địa điểm", "v": "Quảng trường Bắc Gia Nghĩa", "n": "Phường Bắc Gia Nghĩa, tỉnh Lâm Đồng." },
+        { "icon": "monitor", "t": "Phát sóng", "v": "Truyền hình trực tiếp", "n": "PT–TH Lâm Đồng và các đài liên kết toàn quốc." },
+        { "icon": "building2", "t": "Đơn vị chủ trì", "v": "Sở VH, TT và Du lịch Lâm Đồng", "n": "Phối hợp Trung tâm Xúc tiến và Hiệp hội Du lịch." }
+      ],
+      "partners": [
+        { "name": "Sở Văn hóa, Thể thao và Du lịch tỉnh Lâm Đồng", "role": "Chủ trì" },
+        { "name": "Trung tâm Xúc tiến Đầu tư, Thương mại và Du lịch tỉnh Lâm Đồng", "role": "Phối hợp" },
+        { "name": "Hiệp hội Du lịch Lâm Đồng", "role": "Phối hợp" },
+        { "name": "UBND phường Bắc Gia Nghĩa", "role": "Phối hợp" }
+      ],
+      "tags": ["Bế mạc", "Tổng kết", "Bắc Gia Nghĩa", "Nghệ thuật", "Truyền hình trực tiếp", "Hè 2026"]
+    }
+  ]
+}

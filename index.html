@@ -6,384 +6,285 @@
 <title>Chuỗi Hoạt Động "Chào Mùa Du Lịch Hè 2026" – Lâm Đồng</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --bg:#ffffff;
-  --bg-alt:#eef6ff;
-  --ink:#0d2a5c;
-  --ink-soft:#2e4a7f;
-  --muted:#6b84ad;
-  --line:#d9e6f7;
-  --teal:#2563eb;
-  --teal-deep:#1d4ed8;
-  --teal-light:#bfdbfe;
-  --sand:#dbeafe;
-}
 html{scroll-behavior:smooth}
-body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--ink);font-weight:400;line-height:1.6;-webkit-font-smoothing:antialiased}
+body{font-family:'DM Sans',sans-serif;background:#FAFAF8;color:#1A1A1A;-webkit-font-smoothing:antialiased;line-height:1.6}
+
+:root{
+  --cream:#FAFAF8;
+  --dark:#0D1B2A;
+  --dark2:#1B3040;
+  --teal:#1d4ed8;
+  --teal2:#2563eb;
+  --teal-bg:#dbeafe;
+  --gold:#C4A55A;
+  --muted:#6B7280;
+  --border:#E5E7EB;
+  --white:#FFFFFF;
+}
+
+/* LOADER */
+#loading{position:fixed;inset:0;background:var(--dark);display:flex;align-items:center;justify-content:center;z-index:999;transition:opacity .5s ease}
+#loading.hide{opacity:0;pointer-events:none}
+.loader-logo{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:300;color:#fff;text-align:center;margin-bottom:24px}
+.loader-logo em{font-style:italic;color:var(--gold)}
+.loader-bar{width:200px;height:1px;background:rgba(255,255,255,.15);margin:0 auto;overflow:hidden}
+.loader-fill{height:100%;background:var(--gold);width:0;animation:fill 1s ease forwards}
+@keyframes fill{to{width:100%}}
 
 /* NAV */
-.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:18px 32px}
-.nav-inner{max-width:1280px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:24px}
-.nav-brand{font-family:'Cormorant Garamond',serif;font-size:24px;letter-spacing:.02em;color:var(--ink);font-weight:400}
+.nav{position:sticky;top:0;z-index:50;background:rgba(250,250,248,.94);backdrop-filter:blur(14px);border-bottom:1px solid rgba(0,0,0,.06);padding:0 48px;height:72px;display:flex;align-items:center;justify-content:space-between}
+.nav-brand{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:400;letter-spacing:.02em;color:var(--dark)}
 .nav-brand em{font-style:italic;color:var(--teal)}
-.nav-sub{font-size:12px;color:var(--muted);margin-top:2px;letter-spacing:.5px}
+.nav-sub{font-size:11px;color:var(--muted);margin-top:2px;letter-spacing:.4px}
+@media(max-width:768px){.nav{padding:0 20px}}
 
 /* HERO */
-.hero{position:relative;min-height:90vh;display:flex;align-items:center;justify-content:center;overflow:hidden;background:linear-gradient(135deg,#0d2a5c 0%,#1d4ed8 100%);color:#fff;text-align:center;padding:120px 32px}
-.hero::before{content:'';position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1584457173475-2996e0757ab8?q=80&w=2000&auto=format&fit=crop') center/cover no-repeat;filter:brightness(.4) saturate(1.1);opacity:.3}
-.hero::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,42,92,.3) 0%,rgba(29,78,216,.6) 100%)}
-.hero-inner{position:relative;z-index:2;max-width:960px;margin:0 auto}
-.hero-eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--teal-light);margin-bottom:24px}
-.hero-eyebrow::before{content:'';width:20px;height:1px;background:var(--teal-light)}
-.hero h1{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(48px,8vw,96px);line-height:1;letter-spacing:-.02em;margin-bottom:20px}
-.hero h1 em{font-style:italic;color:#bfdbfe;font-weight:400}
-.hero-sub{font-size:18px;color:rgba(255,255,255,.85);max-width:640px;margin:0 auto 48px;line-height:1.7;font-weight:300}
-.hero-stats{display:flex;flex-wrap:wrap;justify-content:center;gap:32px;position:relative;z-index:2}
-.stat-pill{text-align:center}
-.stat-num{font-family:'Cormorant Garamond',serif;font-weight:400;font-size:clamp(36px,6vw,64px);color:var(--teal-light);line-height:1;letter-spacing:-.02em}
-.stat-label{font-size:13px;color:rgba(255,255,255,.7);margin-top:8px;letter-spacing:.3em;text-transform:uppercase}
+.hero{position:relative;min-height:92vh;display:flex;align-items:center;justify-content:center;overflow:hidden;text-align:center;padding:120px 48px}
+.hero-bg{position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1584457173475-2996e0757ab8?q=80&w=2000&auto=format&fit=crop') center/cover no-repeat;transform:scale(1.04)}
+.hero-ov{position:absolute;inset:0;background:linear-gradient(160deg,rgba(13,27,42,.72) 0%,rgba(29,78,216,.45) 100%)}
+.hero-inner{position:relative;z-index:2;max-width:900px;margin:0 auto}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:28px}
+.hero-eyebrow::before{content:'';width:24px;height:1px;background:var(--gold)}
+.hero h1{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(54px,8.5vw,116px);line-height:.9;letter-spacing:-.025em;color:#fff;margin-bottom:28px}
+.hero h1 em{font-style:italic;color:rgba(196,165,90,.9)}
+.hero-sub{font-size:16px;color:rgba(255,255,255,.7);max-width:560px;margin:0 auto 60px;line-height:1.75;font-weight:300}
+.hero-stats{display:flex;flex-wrap:wrap;justify-content:center;gap:0;border:1px solid rgba(255,255,255,.12);border-radius:16px;overflow:hidden;backdrop-filter:blur(8px);background:rgba(255,255,255,.06)}
+.stat-pill{text-align:center;padding:32px 48px;border-right:1px solid rgba(255,255,255,.1)}
+.stat-pill:last-child{border-right:none}
+.stat-n{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(40px,5.5vw,64px);color:#fff;line-height:1;letter-spacing:-.02em}
+.stat-lbl{font-size:11px;color:var(--gold);margin-top:10px;letter-spacing:.28em;text-transform:uppercase}
+@media(max-width:600px){.hero{padding:80px 20px}.hero-stats{flex-direction:column}.stat-pill{border-right:none;border-bottom:1px solid rgba(255,255,255,.1);padding:20px 24px}.stat-pill:last-child{border-bottom:none}}
 
-/* MAIN */
-section{padding:120px 32px}
-.wrap{max-width:1280px;margin:0 auto}
+/* FILTER BAR */
+.filter-bar{padding:36px 48px;border-bottom:1px solid var(--border);background:var(--white);position:sticky;top:72px;z-index:40}
+.filter-inner{max-width:1280px;margin:0 auto;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.filter-label{font-size:12px;color:var(--muted);letter-spacing:.2em;text-transform:uppercase;margin-right:4px}
+.filter-btn{font-size:13px;padding:7px 18px;border-radius:50px;border:1.5px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .2s;font-family:'DM Sans',sans-serif}
+.filter-btn:hover,.filter-btn.active{border-color:var(--teal);color:var(--teal);background:var(--teal-bg)}
+@media(max-width:768px){.filter-bar{padding:20px;top:60px}.filter-inner{gap:8px}.filter-btn{font-size:12px;padding:6px 14px}}
+
+/* EVENTS SECTION */
+.events-section{padding:72px 48px 120px;max-width:1280px;margin:0 auto}
 .section-header{margin-bottom:56px}
-.section-header h2{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(40px,6vw,64px);color:var(--ink);margin-bottom:12px;letter-spacing:-.015em}
-.section-header p{font-size:16px;color:var(--ink-soft);font-weight:300}
+.section-header h2{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(40px,5.5vw,64px);color:var(--dark);letter-spacing:-.02em}
+.section-header h2 em{font-style:italic;color:var(--teal)}
+.section-header p{font-size:15px;color:var(--muted);margin-top:10px;font-weight:300}
+@media(max-width:768px){.events-section{padding:48px 20px 80px}}
 
 /* EVENTS GRID */
-.events-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:28px}
-.event-card{background:var(--white);border:1px solid var(--line);border-radius:8px;padding:32px;display:flex;flex-direction:column;gap:16px;text-decoration:none;color:inherit;transition:all .3s;position:relative;overflow:hidden}
-.event-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:3px;background:var(--teal);opacity:0;transition:opacity .3s}
-.event-card:hover{transform:translateY(-6px);box-shadow:0 12px 40px rgba(37,99,235,.15);border-color:var(--teal)}
-.event-card:hover::before{opacity:1}
-.event-card.is-featured{border-top:4px solid var(--teal-deep)}
-.event-card.is-close{border-top:4px solid var(--teal-light)}
+.events-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:24px}
+@media(max-width:800px){.events-grid{grid-template-columns:1fr}}
 
-.card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
-.card-num{font-size:12px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--teal)}
-.card-icon{width:44px;height:44px;border-radius:8px;background:var(--sand);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--teal)}
-.card-icon svg{width:24px;height:24px;stroke:var(--teal);stroke-width:1.5}
+.event-card{background:var(--white);border:1px solid var(--border);border-radius:16px;padding:36px 32px;display:flex;flex-direction:column;gap:0;text-decoration:none;color:inherit;transition:all .3s;position:relative;overflow:hidden}
+.event-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--teal),#60a5fa);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.event-card:hover{transform:translateY(-6px);box-shadow:0 20px 60px rgba(29,78,216,.12);border-color:rgba(29,78,216,.2)}
+.event-card:hover::after{transform:scaleX(1)}
 
-.card-title{font-family:'Cormorant Garamond',serif;font-weight:400;font-size:22px;line-height:1.4;color:var(--ink);letter-spacing:-.01em}
+.card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:20px}
+.card-num{font-size:11px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:var(--teal);background:var(--teal-bg);padding:5px 12px;border-radius:50px}
+.card-type-dot{width:10px;height:10px;border-radius:50%;background:var(--teal);flex-shrink:0;margin-top:4px;opacity:.4}
 
-.card-pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
-.card-pill{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--ink-soft);background:transparent;border:1px solid var(--line);border-radius:20px;padding:6px 12px;transition:all .2s}
-.card-pill:hover{border-color:var(--teal);background:var(--sand)}
-.card-pill svg{width:14px;height:14px;stroke:var(--teal);stroke-width:1.5}
+.card-title{font-family:'Cormorant Garamond',serif;font-weight:400;font-size:clamp(20px,2.5vw,26px);line-height:1.25;color:var(--dark);letter-spacing:-.01em;margin-bottom:14px}
 
-.card-tag{font-size:11px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--teal);background:var(--sand);border-radius:4px;padding:5px 10px;align-self:flex-start;margin-top:4px}
+.card-meta{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}
+.card-meta-pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);background:var(--cream);border:1px solid var(--border);border-radius:20px;padding:5px 11px}
+.card-meta-pill svg{width:12px;height:12px;stroke:var(--teal);stroke-width:1.8;fill:none}
 
-.card-arrow{margin-top:auto;font-size:13px;color:var(--teal);display:flex;align-items:center;gap:6px;font-weight:500;transition:gap .2s}
-.card-arrow svg{width:16px;height:16px;stroke-width:1.8;transition:transform .2s}
-.event-card:hover .card-arrow{gap:10px}
-.event-card:hover .card-arrow svg{transform:translateX(2px)}
+.card-desc{font-size:14px;line-height:1.7;color:var(--muted);font-weight:300;flex:1;margin-bottom:24px}
+
+.card-footer{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:20px;border-top:1px solid var(--border)}
+.card-tag{font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);font-weight:500}
+.card-arrow{font-size:13px;color:var(--teal);display:flex;align-items:center;gap:6px;font-weight:400}
+.card-arrow svg{width:16px;height:16px;stroke:var(--teal);stroke-width:1.8;fill:none;transition:transform .2s}
+.event-card:hover .card-arrow svg{transform:translateX(4px)}
 
 /* FOOTER */
-footer{background:var(--ink);color:rgba(255,255,255,.65);text-align:center;padding:40px 32px;font-size:13px;line-height:1.8;border-top:1px solid rgba(37,99,235,.1)}
-footer strong{color:var(--teal-light);font-weight:600}
-
-/* LUCIDE */
-[data-lucide]{display:inline-block;vertical-align:middle;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-
-/* MOBILE */
-@media(max-width:768px){
-  .nav{padding:14px 20px}
-  .nav-inner{gap:12px}
-  .nav-brand{font-size:20px}
-  section{padding:80px 20px}
-  .hero{padding:80px 20px;min-height:auto}
-  .hero h1{font-size:clamp(36px,6vw,56px)}
-  .hero-sub{font-size:16px;margin-bottom:32px}
-  .hero-stats{gap:20px}
-  .stat-num{font-size:clamp(28px,4vw,44px)}
-  .stat-label{font-size:11px}
-  .section-header h2{font-size:clamp(32px,5vw,48px)}
-  .events-grid{grid-template-columns:1fr;gap:20px}
-  .event-card{padding:24px}
-  .card-title{font-size:18px}
-  .card-pills{gap:6px;margin-top:6px}
-  .card-pill{font-size:12px;padding:4px 10px}
-}
-
-@media(max-width:480px){
-  section{padding:60px 16px}
-  .hero{padding:60px 16px}
-  .hero h1{font-size:clamp(28px,5vw,40px)}
-  .hero-sub{font-size:14px;margin-bottom:24px}
-  .hero-stats{flex-direction:column;gap:16px}
-  .stat-num{font-size:clamp(24px,3vw,36px)}
-  .section-header h2{font-size:clamp(28px,4vw,40px)}
-  .event-card{padding:20px;gap:12px}
-  .card-title{font-size:16px}
-  .card-pills{display:none}
-  .card-tag{font-size:10px}
-}
+footer{background:var(--dark2);padding:80px 48px 40px;color:rgba(250,250,248,.5)}
+.foot-inner{max-width:1280px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:24px;padding-bottom:48px;border-bottom:1px solid rgba(255,255,255,.07)}
+.foot-brand{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:300;color:#fff}
+.foot-brand em{font-style:italic;color:var(--gold)}
+.foot-brand p{font-size:13px;margin-top:8px;line-height:1.6;max-width:400px;font-weight:300}
+.foot-bot{max-width:1280px;margin:32px auto 0;display:flex;justify-content:space-between;gap:16px;font-size:12px;color:rgba(250,250,248,.28);flex-wrap:wrap}
+@media(max-width:560px){footer{padding:48px 20px 28px}}
 </style>
 </head>
 <body>
 
+<!-- LOADER -->
+<div id="loading">
+  <div>
+    <div class="loader-logo">Lâm Đồng <em>Hè 2026</em></div>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+  </div>
+</div>
+
+<!-- NAV -->
 <nav class="nav">
-  <div class="nav-inner">
-    <div>
-      <div class="nav-brand">Lâm Đồng <em>Hè 2026</em></div>
-      <div class="nav-sub">Chuỗi 15 sự kiện · Tháng 4 – 8/2026</div>
-    </div>
+  <div>
+    <div class="nav-brand">Lâm Đồng <em>Hè 2026</em></div>
+    <div class="nav-sub">Chuỗi 15 sự kiện · Tháng 4 – 8/2026</div>
   </div>
 </nav>
 
+<!-- HERO -->
 <section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-ov"></div>
   <div class="hero-inner">
-    <div class="hero-eyebrow">UBND tỉnh Lâm Đồng</div>
-    <h1>Chào Mùa Du Lịch<br><em>Hè 2026</em></h1>
-    <p class="hero-sub">Chuỗi hoạt động văn hóa, thể thao và du lịch trải dài 5 tháng, từ lễ khai mạc trang trọng đến lễ bế mạc đặc sắc, tôn vinh vẻ đẹp và bản sắc Lâm Đồng.</p>
+    <div class="hero-eyebrow">UBND tỉnh Lâm Đồng · Chào Mùa Du Lịch</div>
+    <h1>Hè<br><em>2026</em></h1>
+    <p class="hero-sub">Chuỗi hoạt động văn hóa, thể thao và du lịch trải dài 5 tháng — tôn vinh vẻ đẹp và bản sắc Lâm Đồng, từ lễ khai mạc trang trọng đến lễ bế mạc đặc sắc.</p>
     <div class="hero-stats">
       <div class="stat-pill">
-        <div class="stat-num">15</div>
-        <div class="stat-label">Sự kiện</div>
+        <div class="stat-n">15</div>
+        <div class="stat-lbl">Sự kiện</div>
       </div>
       <div class="stat-pill">
-        <div class="stat-num">5</div>
-        <div class="stat-label">Tháng</div>
+        <div class="stat-n">5</div>
+        <div class="stat-lbl">Tháng</div>
       </div>
       <div class="stat-pill">
-        <div class="stat-num">25,8M</div>
-        <div class="stat-label">Lượt khách</div>
+        <div class="stat-n">25,8M</div>
+        <div class="stat-lbl">Lượt khách</div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="wrap">
+<!-- FILTER BAR -->
+<div class="filter-bar">
+  <div class="filter-inner">
+    <span class="filter-label">Lọc:</span>
+    <button class="filter-btn active" data-filter="all">Tất cả</button>
+    <button class="filter-btn" data-filter="khai-mac">Khai mạc & Bế mạc</button>
+    <button class="filter-btn" data-filter="le-hoi">Lễ hội & Văn hóa</button>
+    <button class="filter-btn" data-filter="hoi-thao">Hội thảo & Diễn đàn</button>
+    <button class="filter-btn" data-filter="the-thao">Thể thao & Ẩm thực</button>
+    <button class="filter-btn" data-filter="xuc-tien">Xúc tiến & Du lịch</button>
+  </div>
+</div>
+
+<!-- EVENTS -->
+<div class="events-section">
   <div class="section-header">
-    <h2>Tất cả <em style="font-style:italic;color:var(--teal)">sự kiện</em></h2>
+    <h2>Tất cả <em>sự kiện</em></h2>
     <p>Nhấn vào thẻ sự kiện để xem chi tiết chương trình và đăng ký tham dự</p>
   </div>
-
-  <div class="events-grid">
-
-    <!-- 01 -->
-    <a href="01-le-khai-mac.html" class="event-card is-featured">
-      <div class="card-top">
-        <span class="card-num">Sự kiện 01 / 15</span>
-        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10l5 5 8-8"/></svg></div>
-      </div>
-      <div class="card-title">Lễ Khai Mạc Chuỗi Hoạt Động "Chào Mùa Du Lịch Hè 2026"</div>
-      <div class="card-pills">
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> 27/04/2026</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 16 14"/></svg> 19:30 – 22:00</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Nhà hát VH–NT</span>
-      </div>
-      <div class="card-arrow">Xem chi tiết <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg></div>
-    </a>
-
-    <!-- 02 -->
-    <a href="02-trung-bay-ocop.html" class="event-card">
-      <div class="card-top">
-        <span class="card-num">Sự kiện 02 / 15</span>
-        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 4V2m-8 2V2M6 9h.01M10 9h.01M14 9h.01M18 9h.01"/></svg></div>
-      </div>
-      <div class="card-title">Không Gian Trưng Bày Sản Phẩm Du Lịch, OCOP & Bản Đồ Quy Hoạch Mũi Né</div>
-      <div class="card-pills">
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> 27/04 – 03/05</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Đ. Nguyễn Tất Thành</span>
-      </div>
-      <div class="card-arrow">Xem chi tiết <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg></div>
-    </a>
-
-    <!-- 03 -->
-    <a href="03-ngay-hoi-van-hoa.html" class="event-card">
-      <div class="card-top">
-        <span class="card-num">Sự kiện 03 / 15</span>
-        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M18 16v-5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v5m0 0H8m10 0v3a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-3m10 0a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2"/></svg></div>
-      </div>
-      <div class="card-title">Ngày Hội Văn Hóa Hưởng Ứng Ngày Văn Hóa Các Dân Tộc Việt Nam</div>
-      <div class="card-pills">
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> 18/04/2026</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Khu vực Tây Lâm Đồng</span>
-      </div>
-      <div class="card-arrow">Xem chi tiết <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg></div>
-    </a>
-
-    <!-- 04 -->
-    <a href="04-khao-sat-xuc-tien.html" class="event-card">
-      <div class="card-top">
-        <span class="card-num">Sự kiện 04 / 15</span>
-        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
-      </div>
-      <div class="card-title">Khảo Sát & Xây Dựng Sản Phẩm Du Lịch, Chương Trình Xúc Tiến Quảng Bá</div>
-      <div class="card-pills">
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Tháng 5/2026</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Toàn tỉnh</span>
-      </div>
-      <div class="card-arrow">Xem chi tiết <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg></div>
-    </a>
-
-    <!-- 05 -->
-    <a href="05-summer-fest.html" class="event-card is-featured">
-      <div class="card-top">
-        <span class="card-num">Sự kiện 05 / 15</span>
-        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M11 15H9a4 4 0 0 0-4 4v2h14v-2a4 4 0 0 0-4-4h-2m-5-8a3 3 0 1 1 6 0 3 3 0 0 1-6 0z"/></svg></div>
-      </div>
-      <div class="card-title">Lễ Hội Mùa Hè – Summer Fest 2026</div>
-      <div class="card-pills">
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> 30/04 – 30/08</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> NovaWorld Phan Thiết</span>
-      </div>
-      <div class="card-tag">Xuyên suốt</div>
-      <div class="card-arrow">Xem chi tiết <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg></div>
-    </a>
-
-    <!-- 06 -->
-    <a href="06-hoi-thao-kinh-te-bien.html" class="event-card">
-      <div class="card-top">
-        <span class="card-num">Sự kiện 06 / 15</span>
-        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M13 2H3a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"/><polyline points="17 16 19 18 23 14"/></svg></div>
-      </div>
-      <div class="card-title">Hội Thảo Phát Triển Kinh Tế Biển Tỉnh Lâm Đồng</div>
-      <div class="card-pills">
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Cuối tháng 5</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Đặc khu Phú Quý</span>
-      </div>
-      <div class="card-arrow">Xem chi tiết <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg></div>
-    </a>
-
-    <!-- 07 -->
-    <a href="07-hoi-thao-cong-nghiep-van-hoa.html" class="event-card">
-      <div class="card-top">
-        <span class="card-num">Sự kiện 07 / 15</span>
-        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 6v6l4 2"/></svg></div>
-      </div>
-      <div class="card-title">Hội Thảo Khoa Học Giải Pháp Phát Triển Công Nghiệp Văn Hóa</div>
-      <div class="card-pills">
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Tháng 6/2026</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Phường Phan Thiết</span>
-      </div>
-      <div class="card-arrow">Xem chi tiết <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg></div>
-    </a>
-
-    <!-- 08 -->
-    <a href="08-da-lat-music-night-run.html" class="event-card">
-      <div class="card-top">
-        <span class="card-num">Sự kiện 08 / 15</span>
-        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 18V5l12-2v13A4 4 0 1 1 9 18z"/></svg></div>
-      </div>
-      <div class="card-title">Giải Chạy Đà Lạt Music Night Run 2026 & Đêm Concert</div>
-      <div class="card-pills">
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Tháng 6/2026</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Quảng trường Lâm Viên</span>
-      </div>
-      <div class="card-arrow">Xem chi tiết <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg></div>
-    </a>
-
-    <!-- 09 -->
-    <a href="09-dien-dan-phat-trien-du-lich.html" class="event-card">
-      <div class="card-top">
-        <span class="card-num">Sự kiện 09 / 15</span>
-        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-      </div>
-      <div class="card-title">Diễn Đàn Tham Vấn Giải Pháp Phát Triển Du Lịch 2026–2030</div>
-      <div class="card-pills">
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Tháng 7/2026</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Phường Xuân Hương</span>
-      </div>
-      <div class="card-arrow">Xem chi tiết <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg></div>
-    </a>
-
-    <!-- 10 -->
-    <a href="10-ngay-van-hoa-du-lich-hcm.html" class="event-card">
-      <div class="card-top">
-        <span class="card-num">Sự kiện 10 / 15</span>
-        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"/><path d="M9 12h6M9 16h6"/></svg></div>
-      </div>
-      <div class="card-title">Ngày Văn Hóa – Du Lịch Lâm Đồng tại Thành Phố Hồ Chí Minh</div>
-      <div class="card-pills">
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Tháng 8/2026</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Phố đi bộ Nguyễn Huệ</span>
-      </div>
-      <div class="card-arrow">Xem chi tiết <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg></div>
-    </a>
-
-    <!-- 11 -->
-    <a href="11-le-hoi-cau-ngu.html" class="event-card">
-      <div class="card-top">
-        <span class="card-num">Sự kiện 11 / 15</span>
-        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 17v-3a6 6 0 0 0-6-6H10a6 6 0 0 0-6 6v3M4 6h3m8 0h3M4 9h16"/></svg></div>
-      </div>
-      <div class="card-title">Lễ Hội Cầu Ngư Chính Mùa tại Vạn Thủy Tú</div>
-      <div class="card-pills">
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> 01 – 03/08</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Vạn Thủy Tú</span>
-      </div>
-      <div class="card-arrow">Xem chi tiết <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg></div>
-    </a>
-
-    <!-- 12 -->
-    <a href="12-le-hoi-nginh-ong.html" class="event-card">
-      <div class="card-top">
-        <span class="card-num">Sự kiện 12 / 15</span>
-        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg></div>
-      </div>
-      <div class="card-title">Lễ Hội Nghinh Ông</div>
-      <div class="card-pills">
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Trung tuần tháng 7 AL</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Quan Đế Miếu</span>
-      </div>
-      <div class="card-arrow">Xem chi tiết <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg></div>
-    </a>
-
-    <!-- 13 -->
-    <a href="13-ngay-hoi-am-thuc.html" class="event-card">
-      <div class="card-top">
-        <span class="card-num">Sự kiện 13 / 15</span>
-        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 12h18M3 6h18M3 18h18"/></svg></div>
-      </div>
-      <div class="card-title">Ngày Hội Du Lịch, Mua Sắm & Giao Lưu Ẩm Thực Việt</div>
-      <div class="card-pills">
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Tháng 8/2026</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Quảng trường Lâm Viên</span>
-      </div>
-      <div class="card-arrow">Xem chi tiết <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg></div>
-    </a>
-
-    <!-- 14 -->
-    <a href="14-kich-cau-du-lich.html" class="event-card">
-      <div class="card-top">
-        <span class="card-num">Sự kiện 14 / 15</span>
-        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
-      </div>
-      <div class="card-title">Chương Trình Kích Cầu Du Lịch "Người Lâm Đồng – Đi Du Lịch Lâm Đồng"</div>
-      <div class="card-pills">
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Tháng 4 – 8</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Toàn tỉnh</span>
-      </div>
-      <div class="card-tag">Xuyên suốt</div>
-      <div class="card-arrow">Xem chi tiết <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg></div>
-    </a>
-
-    <!-- 15 -->
-    <a href="15-le-be-mac.html" class="event-card is-featured">
-      <div class="card-top">
-        <span class="card-num">Sự kiện 15 / 15</span>
-        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M7 10l5 5 8-8"/></svg></div>
-      </div>
-      <div class="card-title">Lễ Bế Mạc Chuỗi Hoạt Động "Chào Mùa Du Lịch Hè 2026"</div>
-      <div class="card-pills">
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Cuối tháng 8</span>
-        <span class="card-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Quảng trường Gia Nghĩa</span>
-      </div>
-      <div class="card-arrow">Xem chi tiết <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg></div>
-    </a>
-
+  <div class="events-grid" id="events-grid">
+    <!-- rendered by JS -->
   </div>
-</section>
+</div>
 
+<!-- FOOTER -->
 <footer>
-  <strong>UBND tỉnh Lâm Đồng</strong> – Chuỗi hoạt động "Chào Mùa Du Lịch Hè 2026"<br>
-  Sở Văn hóa, Thể thao và Du lịch · Tháng 4 – 8/2026
+  <div class="foot-inner">
+    <div class="foot-brand">
+      Lâm Đồng <em>Hè 2026</em>
+      <p>Chuỗi hoạt động "Chào Mùa Du Lịch Hè 2026" do UBND tỉnh Lâm Đồng chỉ đạo, Sở Văn hóa, Thể thao và Du lịch chủ trì tổ chức.</p>
+    </div>
+  </div>
+  <div class="foot-bot">
+    <span>© 2026 UBND tỉnh Lâm Đồng — Mọi quyền được bảo lưu.</span>
+    <span>Đến Lâm Đồng — Săn mây ngàn, lướt sóng bạc.</span>
+  </div>
 </footer>
 
+<script>
+// Event category mapping for filter
+const CATEGORIES = {
+  '01': 'khai-mac', '15': 'khai-mac',
+  '02': 'xuc-tien',
+  '03': 'le-hoi', '11': 'le-hoi', '12': 'le-hoi',
+  '04': 'xuc-tien', '10': 'xuc-tien', '14': 'xuc-tien',
+  '05': 'le-hoi',
+  '06': 'hoi-thao', '07': 'hoi-thao', '09': 'hoi-thao',
+  '08': 'the-thao', '13': 'the-thao',
+};
+
+// Date short labels for hero meta
+const DATE_LABELS = {
+  '01':'27/04', '02':'27/04–03/05', '03':'18/04', '04':'Th.5', '05':'30/04–30/08',
+  '06':'Cuối Th.5', '07':'Th.6', '08':'Th.6', '09':'Th.7', '10':'Th.8',
+  '11':'01–03/08', '12':'Th.7 ÂL', '13':'Th.8', '14':'Th.4–8', '15':'Cuối Th.8'
+};
+const LOC_LABELS = {
+  '01':'Nhà hát VH–NT', '02':'Đ.Nguyễn Tất Thành', '03':'Tây Lâm Đồng',
+  '04':'Toàn tỉnh', '05':'NovaWorld', '06':'Đặc khu Phú Quý',
+  '07':'Phan Thiết', '08':'Lâm Viên, Đà Lạt', '09':'Xuân Hương, Đà Lạt',
+  '10':'Nguyễn Huệ, HCM', '11':'Vạn Thủy Tú', '12':'Quan Đế Miếu',
+  '13':'Lâm Viên, Đà Lạt', '14':'Toàn tỉnh', '15':'Bắc Gia Nghĩa'
+};
+const CONT_LABELS = {
+  '05':'Xuyên suốt', '14':'Xuyên suốt', '01':'Khai mạc', '15':'Bế mạc'
+};
+
+async function init() {
+  let data;
+  try {
+    const res = await fetch('events-data.json');
+    data = await res.json();
+  } catch(e) {
+    document.getElementById('events-grid').innerHTML = '<p style="padding:40px;color:#6B7280">Không tải được dữ liệu sự kiện.</p>';
+    return;
+  }
+
+  const { events } = data;
+  renderCards(events);
+
+  // Filter buttons
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      const cards = document.querySelectorAll('.event-card');
+      cards.forEach(card => {
+        const cat = card.dataset.cat;
+        card.style.display = (filter === 'all' || cat === filter) ? '' : 'none';
+      });
+    });
+  });
+
+  setTimeout(() => document.getElementById('loading').classList.add('hide'), 900);
+}
+
+function renderCards(events) {
+  const grid = document.getElementById('events-grid');
+  grid.innerHTML = events.map(ev => {
+    const cat = CATEGORIES[ev.id] || 'xuc-tien';
+    const cont = CONT_LABELS[ev.id] ? `<span class="card-tag">${CONT_LABELS[ev.id]}</span>` : `<span class="card-tag" style="color:var(--muted)">${ev.type}</span>`;
+    return `
+      <a href="event.html?id=${ev.id}" class="event-card" data-cat="${cat}">
+        <div class="card-header">
+          <span class="card-num">SK ${ev.id} / 15</span>
+          <div class="card-type-dot"></div>
+        </div>
+        <div class="card-title">${ev.titleLine1} ${ev.titleLine2}</div>
+        <div class="card-meta">
+          <span class="card-meta-pill">
+            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+            ${DATE_LABELS[ev.id] || '2026'}
+          </span>
+          <span class="card-meta-pill">
+            <svg viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+            ${LOC_LABELS[ev.id] || 'Lâm Đồng'}
+          </span>
+        </div>
+        <p class="card-desc">${ev.subtitle.substring(0, 110)}${ev.subtitle.length > 110 ? '…' : ''}</p>
+        <div class="card-footer">
+          ${cont}
+          <span class="card-arrow">Xem chi tiết
+            <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>`;
+  }).join('');
+}
+
+init();
+</script>
 </body>
 </html>
