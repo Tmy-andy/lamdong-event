@@ -14,6 +14,11 @@
       "titleLine1": "Chào Mùa Du Lịch",
       "titleLine2": "Hè 2026",
       "subtitle": "Đêm khai mạc trang trọng, công bố Quy hoạch chung xây dựng Khu du lịch quốc gia Mũi Né — mở đầu cho chuỗi mười lăm hoạt động tôn vinh đất và người Lâm Đồng.",
+      "images": {
+        "hero": "img/hero/0805.lamdongdl1.jpg",
+        "overview": "img/overview/tp-dalat-trung-tam.jpg",
+        "strip": "img/strip/hang-dong-duoi-chan-thac-nuoc-o-lam-dong-ivivu-1.jpg"
+      },
       "heroMeta": [
         { "k": "Thời điểm", "v": "27.04.2026" },
         { "k": "Giờ diễn ra", "v": "19:30 — 22:00" },
@@ -84,6 +89,11 @@
       "titleLine1": "Không Gian Trưng Bày",
       "titleLine2": "OCOP & Quy Hoạch Mũi Né",
       "subtitle": "Giới thiệu sản phẩm du lịch đặc trưng, hàng OCOP và bản đồ Quy hoạch chung Khu du lịch quốc gia Mũi Né — cầu nối giữa tiềm năng và du khách.",
+      "images": {
+        "hero": "img/hero/02-hero.jpg",
+        "overview": "img/overview/02-overview.jpg",
+        "strip": "img/strip/02-strip.jpg"
+      },
       "heroMeta": [
         { "k": "Thời gian", "v": "27/04 – 03/05" },
         { "k": "Địa điểm", "v": "Đ. Nguyễn Tất Thành" },
@@ -134,6 +144,11 @@
       "titleLine1": "Ngày Hội Văn Hóa",
       "titleLine2": "Các Dân Tộc Việt Nam",
       "subtitle": "Hưởng ứng Ngày Văn hóa các dân tộc Việt Nam và chào mừng kỷ niệm 51 năm Ngày Giải phóng miền Nam — tôn vinh bản sắc và giao lưu văn hóa.",
+      "images": {
+        "hero": "img/hero/03-hero.jpg",
+        "overview": "img/overview/03-overview.jpg",
+        "strip": "img/strip/03-strip.jpg"
+      },
       "heroMeta": [
         { "k": "Ngày tổ chức", "v": "18.04.2026" },
         { "k": "Khu vực", "v": "Tây Lâm Đồng" },
@@ -172,6 +187,11 @@
       "titleLine1": "Khảo Sát & Xây Dựng",
       "titleLine2": "Sản Phẩm Du Lịch Mới",
       "subtitle": "Kết nối doanh nghiệp quốc tế, xây dựng tour tuyến mới và quảng bá tiềm năng du lịch Lâm Đồng ra thị trường quốc tế trong bối cảnh sân bay Liên Khương tạm dừng hoạt động.",
+      "images": {
+        "hero": "img/hero/04-hero.jpg",
+        "overview": "img/overview/04-overview.jpg",
+        "strip": "img/strip/04-strip.jpg"
+      },
       "heroMeta": [
         { "k": "Thời gian", "v": "Tháng 5/2026" },
         { "k": "Khu vực", "v": "Toàn tỉnh Lâm Đồng" },
@@ -213,6 +233,11 @@
       "titleLine1": "Lễ Hội Mùa Hè",
       "titleLine2": "Summer Fest 2026",
       "subtitle": "Lễ hội biển kéo dài xuyên mùa hè 2026 tại NovaWorld Phan Thiết — mang đến trải nghiệm giải trí đặc sắc và chào mừng kỷ niệm 51 năm Ngày Giải phóng miền Nam.",
+      "images": {
+        "hero": "img/hero/05-hero.jpg",
+        "overview": "img/overview/05-overview.jpg",
+        "strip": "img/strip/05-strip.jpg"
+      },
       "heroMeta": [
         { "k": "Thời gian", "v": "30/04 – 30/08" },
         { "k": "Địa điểm", "v": "NovaWorld Phan Thiết" },
@@ -254,6 +279,11 @@
       "titleLine1": "Hội Thảo Phát Triển",
       "titleLine2": "Kinh Tế Biển Lâm Đồng",
       "subtitle": "\"Phát huy lợi thế, phát triển đột phá kinh tế biển đưa Lâm Đồng vươn mình trong kỷ nguyên mới cùng đất nước\" — hội thảo chiến lược tại đặc khu Phú Quý.",
+      "images": {
+        "hero": "img/hero/06-hero.jpg",
+        "overview": "img/overview/06-overview.jpg",
+        "strip": "img/strip/06-strip.jpg"
+      },
       "heroMeta": [
         { "k": "Thời gian", "v": "Cuối tháng 5/2026" },
         { "k": "Địa điểm", "v": "Đặc khu Phú Quý" },
@@ -289,6 +319,11 @@
       "titleLine1": "Hội Thảo Khoa Học",
       "titleLine2": "Công Nghiệp Văn Hóa 2030–2045",
       "subtitle": "Bàn luận các giải pháp chiến lược phát triển các ngành công nghiệp văn hóa trên địa bàn tỉnh Lâm Đồng đến năm 2030, tầm nhìn đến năm 2045.",
+      "images": {
+        "hero": "img/hero/07-hero.jpg",
+        "overview": "img/overview/07-overview.jpg",
+        "strip": "img/strip/07-strip.jpg"
+      },
       "heroMeta": [
         { "k": "Thời gian", "v": "Tháng 6/2026" },
         { "k": "Địa điểm", "v": "Phường Phan Thiết" },
@@ -323,6 +358,11 @@
       "titleLine1": "Đà Lạt Music",
       "titleLine2": "Night Run 2026 & Concert",
       "subtitle": "Giải chạy đêm kết hợp âm nhạc tại Quảng trường Lâm Viên — trải nghiệm độc đáo giữa thiên nhiên cao nguyên Đà Lạt mộng mơ.",
+      "images": {
+        "hero": "img/hero/08-hero.jpg",
+        "overview": "img/overview/08-overview.jpg",
+        "strip": "img/strip/08-strip.jpg"
+      },
       "heroMeta": [
         { "k": "Thời gian", "v": "Tháng 6/2026" },
         { "k": "Địa điểm", "v": "Quảng trường Lâm Viên" },
@@ -362,6 +402,11 @@
       "titleLine1": "Diễn Đàn Phát Triển",
       "titleLine2": "Du Lịch 2026–2030",
       "subtitle": "Tập hợp chuyên gia, doanh nghiệp và nhà quản lý cùng xây dựng chiến lược phát triển du lịch bền vững tỉnh Lâm Đồng giai đoạn 2026–2030, tầm nhìn đến năm 2040.",
+      "images": {
+        "hero": "img/hero/09-hero.jpg",
+        "overview": "img/overview/09-overview.jpg",
+        "strip": "img/strip/09-strip.jpg"
+      },
       "heroMeta": [
         { "k": "Thời gian", "v": "Tháng 7/2026" },
         { "k": "Địa điểm", "v": "Đà Lạt" },
@@ -399,6 +444,11 @@
       "titleLine1": "Ngày Văn Hóa – Du Lịch",
       "titleLine2": "Lâm Đồng tại TP. HCM",
       "subtitle": "Đưa hình ảnh \"Lâm Đồng – Hành trình của Biển, Hoa, Đại ngàn\" đến trung tâm kinh tế lớn nhất cả nước — tại tuyến phố đi bộ Nguyễn Huệ, TP. Hồ Chí Minh.",
+      "images": {
+        "hero": "img/hero/10-hero.jpg",
+        "overview": "img/overview/10-overview.jpg",
+        "strip": "img/strip/10-strip.jpg"
+      },
       "heroMeta": [
         { "k": "Thời gian", "v": "Tháng 8/2026" },
         { "k": "Địa điểm", "v": "Phố đi bộ Nguyễn Huệ" },
@@ -436,6 +486,11 @@
       "titleLine1": "Lễ Hội Cầu Ngư",
       "titleLine2": "Chính Mùa tại Vạn Thủy Tú",
       "subtitle": "Lễ hội dân gian truyền thống của ngư dân — cầu mong mưa thuận gió hòa, biển lặng sóng êm, tàu thuyền ra khơi bình an, mùa cá bội thu.",
+      "images": {
+        "hero": "img/hero/11-hero.jpg",
+        "overview": "img/overview/11-overview.jpg",
+        "strip": "img/strip/11-strip.jpg"
+      },
       "heroMeta": [
         { "k": "Ngày tổ chức", "v": "01 – 03/08/2026" },
         { "k": "Lịch âm", "v": "19–21/6 Bính Ngọ" },
@@ -474,6 +529,11 @@
       "titleLine1": "Lễ Hội",
       "titleLine2": "Nghinh Ông",
       "subtitle": "Lễ hội dân gian linh thiêng của cư dân vùng biển — nghi thức đón rước thần Nam Hải, cầu mùa bội thu và bình an cho ngư dân ra khơi.",
+      "images": {
+        "hero": "img/hero/12-hero.jpg",
+        "overview": "img/overview/12-overview.jpg",
+        "strip": "img/strip/12-strip.jpg"
+      },
       "heroMeta": [
         { "k": "Thời gian", "v": "Tháng 7 Âm lịch" },
         { "k": "Địa điểm", "v": "Quan Đế Miếu" },
@@ -515,6 +575,11 @@
       "titleLine1": "Ngày Hội Du Lịch",
       "titleLine2": "Mua Sắm & Ẩm Thực Việt",
       "subtitle": "Hội tụ tinh hoa ẩm thực ba miền, sản phẩm du lịch đặc sắc và trải nghiệm mua sắm độc đáo tại trái tim Đà Lạt — Quảng trường Lâm Viên.",
+      "images": {
+        "hero": "img/hero/13-hero.jpg",
+        "overview": "img/overview/13-overview.jpg",
+        "strip": "img/strip/13-strip.jpg"
+      },
       "heroMeta": [
         { "k": "Thời gian", "v": "Tháng 8/2026" },
         { "k": "Địa điểm", "v": "Quảng trường Lâm Viên" },
@@ -557,6 +622,11 @@
       "titleLine1": "Kích Cầu Du Lịch",
       "titleLine2": "Người Lâm Đồng – Đi Lâm Đồng",
       "subtitle": "Xây dựng, phát động và công bố các chương trình khuyến mãi, ưu đãi du lịch đặc biệt dành cho người dân Lâm Đồng — \"Một chuyến đi, đa trải nghiệm\".",
+      "images": {
+        "hero": "img/hero/14-hero.jpg",
+        "overview": "img/overview/14-overview.jpg",
+        "strip": "img/strip/14-strip.jpg"
+      },
       "heroMeta": [
         { "k": "Thời gian", "v": "Tháng 4 – 8/2026" },
         { "k": "Phạm vi", "v": "Toàn tỉnh" },
@@ -599,6 +669,11 @@
       "titleLine1": "Lễ Bế Mạc",
       "titleLine2": "Chuỗi Hoạt Động Hè 2026",
       "subtitle": "Tổng kết và khép lại chuỗi sự kiện du lịch lớn nhất mùa hè năm 2026 của tỉnh Lâm Đồng — với chương trình nghệ thuật đặc sắc phát sóng trực tiếp.",
+      "images": {
+        "hero": "img/hero/15-hero.jpg",
+        "overview": "img/overview/15-overview.jpg",
+        "strip": "img/strip/15-strip.jpg"
+      },
       "heroMeta": [
         { "k": "Thời gian", "v": "Cuối tháng 8/2026" },
         { "k": "Địa điểm", "v": "Bắc Gia Nghĩa" },
